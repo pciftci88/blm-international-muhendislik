@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css';
+import { Wrapper } from './App.styles';
 
-import Header from './components/header/header.component'; import MainSlider from './components/main-slider/main-slider.component';
+import Header from './components/header/header.component';
+import MainSlider from './components/main-slider/main-slider.component';
 import BrandSlider from './components/brand-slider/brand-slider.component';
+import Footer from './components/footer/footer.component';
 
 function App() {
   return (
-    <div className="App">
+    <Wrapper>
       <Header />
       <MainSlider />
       <BrandSlider />
-    </div>
+      <Footer />
+    </Wrapper>
   );
 }
 

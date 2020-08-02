@@ -11,6 +11,7 @@ function Header() {
                 <NaviItem>Home</NaviItem>
                 <NaviItem>Produkte & Lieferprogramm</NaviItem>
                 <NaviItem>Impressum</NaviItem>
+                <NaviItem>Kontakt</NaviItem>
             </Navi>
             <ui5-button>Angebot anfordern</ui5-button>
         </Wrapper>
