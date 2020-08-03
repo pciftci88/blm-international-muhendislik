@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1478994e2563e609883ede130dd3723c",
+    "revision": "757757df5a511d5a0baeeba8b49b412f",
     "url": "/blm-international-muhendislik/index.html"
   },
   {
-    "revision": "6e932aaffb9c1fef8b37",
+    "revision": "639bfd575a5fa8ee040d",
+    "url": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css"
+  },
+  {
+    "revision": "68c7ae37537d896a5ec7",
     "url": "/blm-international-muhendislik/static/css/main.8083684c.chunk.css"
   },
   {
-    "revision": "5048aa28e64ff2cf956a",
-    "url": "/blm-international-muhendislik/static/js/2.808f6884.chunk.js"
+    "revision": "639bfd575a5fa8ee040d",
+    "url": "/blm-international-muhendislik/static/js/2.1a0f8ea0.chunk.js"
   },
   {
-    "revision": "ca26c77f32e32d0ae530d9865313a7ec",
-    "url": "/blm-international-muhendislik/static/js/2.808f6884.chunk.js.LICENSE.txt"
+    "revision": "41da2c017c53f502fa501172a04782db",
+    "url": "/blm-international-muhendislik/static/js/2.1a0f8ea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e932aaffb9c1fef8b37",
-    "url": "/blm-international-muhendislik/static/js/main.642dbe57.chunk.js"
+    "revision": "68c7ae37537d896a5ec7",
+    "url": "/blm-international-muhendislik/static/js/main.0d3ac2c4.chunk.js"
   },
   {
-    "revision": "9f490940b702c031ba83",
-    "url": "/blm-international-muhendislik/static/js/runtime-main.e659cd75.js"
+    "revision": "ee8221ec22301d474bd5",
+    "url": "/blm-international-muhendislik/static/js/runtime-main.aae4ded5.js"
   },
   {
     "revision": "6913905c43505620c66b1bfa56d14bb5",
@@ -40,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blm-international-muhendislik/static/media/logo.701bc20c.jpg"
   },
   {
-    "revision": "d3cfb755a2b9f78a37609f1a3ac1e052",
-    "url": "/blm-international-muhendislik/static/media/produkte.d3cfb755.jpg"
-  },
-  {
     "revision": "4f0a1edf386707e43b71340a17a65d39",
     "url": "/blm-international-muhendislik/static/media/schneider-electric-logo.4f0a1edf.jpg"
   },
@@ -52,7 +52,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blm-international-muhendislik/static/media/seepex-logo.21c4f5e4.jpg"
   },
   {
-    "revision": "5350cfd77e98283c93b74fabaa584760",
-    "url": "/blm-international-muhendislik/static/media/versand.5350cfd7.jpg"
+    "revision": "0a0a67df6eaa333bbdfe7ad2f2786457",
+    "url": "/blm-international-muhendislik/static/media/slide-1.0a0a67df.jpg"
+  },
+  {
+    "revision": "288dee5e31f6ce982a22eb4ffa45361a",
+    "url": "/blm-international-muhendislik/static/media/slide-2.288dee5e.jpg"
+  },
+  {
+    "revision": "219cd1bfaab7949837a9dc1653192f14",
+    "url": "/blm-international-muhendislik/static/media/slide-3.219cd1bf.jpg"
   }
 ]);
