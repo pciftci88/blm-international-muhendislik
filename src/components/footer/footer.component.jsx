@@ -4,7 +4,8 @@ import {
     FooterItem,
     Title,
     Paragraph,
-    Link
+    Link,
+    Copyright
 } from './footer.styles';
 
 class Footer extends React.Component {
@@ -45,7 +46,7 @@ class Footer extends React.Component {
                         </div>
                     </FooterItem>
                 </Wrapper>
-                <Paragraph>&#169; {this.copyrightYear} BLM International Mühendislik.  Alle Inhalte unterliegen unserem Copyright.</Paragraph>
+                <Copyright>&#169; {this.copyrightYear} BLM International Mühendislik.  Alle Inhalte unterliegen unserem Copyright.</Copyright>
             </React.Fragment>
         );
     }

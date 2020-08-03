@@ -1,16 +1,37 @@
 import React from 'react';
-import '@ui5/webcomponents/dist/Carousel';
-import { } from './main-slider.styles';
+import { Link } from 'react-router-dom';
 
-import produkte from '../../images/slider/produkte.jpg';
-import versand from '../../images/slider/versand.jpg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import { Wrapper } from './main-slider.styles';
+
+import slide1 from '../../images/slider/slide-1.jpg';
+import slide2 from '../../images/slider/slide-2.jpg';
+import slide3 from '../../images/slider/slide-3.jpg';
 
 function MainSlider() {
     return (
-        <ui5-carousel cyclic>
-            <img src={produkte} alt="Produkte" />
-            <img src={versand} alt="Versand" />
-        </ui5-carousel>
+        <Wrapper>
+            <Carousel
+                autoPlay
+                infiniteLoop
+                swipeable
+                showThumbs={false}
+            >
+                <div>
+                    <img src={slide1} alt="Slider-Item" />
+                    <Link to="/kontakt" className="legend">Zum Kontaktformular</Link>
+                </div>
+                <div>
+                    <img src={slide2} alt="Slider-Item" />
+                    <Link to="/kontakt" className="legend">Zum Kontaktformular</Link>
+                </div>
+                <div>
+                    <img src={slide3} alt="Slider-Item" />
+                    <Link to="/kontakt" className="legend">Zum Kontaktformular</Link>
+                </div>
+            </Carousel>
+        </Wrapper>
     );
 }
 

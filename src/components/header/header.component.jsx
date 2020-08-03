@@ -1,5 +1,6 @@
 import React from 'react';
-import { Wrapper, Navi, NaviItem, Logo } from './header.styles';
+
+import { Wrapper, Navi, NaviItem, Logo, ContactLink } from './header.styles';
 import logo from '../../images/logos/logo.jpg';
 import '@ui5/webcomponents/dist/Button';
 
@@ -8,12 +9,14 @@ function Header() {
         <Wrapper>
             <Logo src={logo} alt='' title='' />
             <Navi>
-                <NaviItem>Home</NaviItem>
-                <NaviItem>Produkte & Lieferprogramm</NaviItem>
-                <NaviItem>Impressum</NaviItem>
-                <NaviItem>Kontakt</NaviItem>
+                <NaviItem to="/">Home</NaviItem>
+                <NaviItem to="/produkte">Produkte & Lieferprogramm</NaviItem>
+                <NaviItem to="/impressum">Impressum</NaviItem>
+                <NaviItem to="/kontakt">Kontakt</NaviItem>
             </Navi>
-            <ui5-button>Angebot anfordern</ui5-button>
+            <ui5-button>
+                <ContactLink to="/kontakt"> Angebot anfordern</ContactLink>
+            </ui5-button>
         </Wrapper>
     );
 }

@@ -1,19 +1,21 @@
 import React from 'react';
-import { Wrapper } from './App.styles';
+import { Switch, Route } from 'react-router-dom';
 
 import Header from './components/header/header.component';
-import MainSlider from './components/main-slider/main-slider.component';
-import BrandSlider from './components/brand-slider/brand-slider.component';
 import Footer from './components/footer/footer.component';
+import Homepage from './pages/homepage/homepage.component';
+import ProductOverview from './pages/product-overview/product-overview.component';
 
 function App() {
   return (
-    <Wrapper>
+    <React.Fragment>
       <Header />
-      <MainSlider />
-      <BrandSlider />
+      <Switch>
+        <Route exact path="/" component={Homepage} />
+        <Route path="/produkte" component={ProductOverview} />
+      </Switch>
       <Footer />
-    </Wrapper>
+    </React.Fragment>
   );
 }
 

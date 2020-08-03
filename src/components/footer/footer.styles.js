@@ -52,3 +52,7 @@ export const Link = styled.a`
 export const Paragraph = styled.p`
     margin-bottom: 10px;
 `;
+
+export const Copyright = styled.p`
+    margin: 0 40px 10px;
+`;

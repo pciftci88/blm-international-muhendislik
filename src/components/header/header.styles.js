@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 40px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
 
@@ -28,7 +29,7 @@ export const Navi = styled.div`
     }
 `;
 
-export const NaviItem = styled.span`
+export const NaviItem = styled(Link)`
     color: #777;
 
     &:hover {
@@ -43,4 +44,8 @@ export const NaviItem = styled.span`
 
 export const Logo = styled.img`
     max-width: 160px;
+`;
+
+export const ContactLink = styled(Link)`
+    text-decoration: none;
 `;
