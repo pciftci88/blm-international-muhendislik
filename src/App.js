@@ -11,8 +11,8 @@ function App() {
     <React.Fragment>
       <Header />
       <Switch>
-        <Route exact path="/" component={Homepage} />
-        <Route path="/produkte" component={ProductOverview} />
+        <Route path="/" component={Homepage} />
+        <Route exact path="/produkte" component={ProductOverview} />
       </Switch>
       <Footer />
     </React.Fragment>
