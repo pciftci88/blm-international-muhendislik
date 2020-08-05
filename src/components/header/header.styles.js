@@ -26,11 +26,14 @@ export const Navi = styled.div`
         margin: 20px 0;
         justify-content: center;
         flex-wrap: wrap;
+        align-items: center;
+        height: 60px;
     }
 `;
 
 export const NaviItem = styled(Link)`
     color: #777;
+    text-decoration: none;
 
     &:hover {
         color: #333;
@@ -43,9 +46,20 @@ export const NaviItem = styled(Link)`
 `;
 
 export const Logo = styled.img`
-    max-width: 160px;
+    max-width: 80px;
 `;
 
 export const ContactLink = styled(Link)`
+    color: #fff;
     text-decoration: none;
+`;
+
+export const Contact = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+    @media (max-width: 1020px) {
+        margin-bottom: 10px;
+    }
 `;

@@ -4,9 +4,11 @@ import {
     FooterItem,
     Title,
     Paragraph,
-    Link,
-    Copyright
-} from './footer.styles';
+    FooterLink,
+    Copyright,
+    LinkWrapper,
+    ContactLink
+} from './Footer.styles';
 
 class Footer extends React.Component {
     constructor() {
@@ -28,22 +30,22 @@ class Footer extends React.Component {
                         <Title>Adresse</Title>
                         <Paragraph>
                             BLM International Mühendislik<br />
-                        Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
-                        Adana/Türkiye
-                    </Paragraph>
+                            Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
+                            Adana/Türkiye
+                        </Paragraph>
                         <Paragraph>
-                            <strong>Tel.:</strong> 03222563040<br />
-                            <strong>WhatsApp:</strong> 05438645502<br />
-                            <strong>Skype:</strong> blm-muhendislik@outlook.com
-                    </Paragraph>
+                            <strong>Tel.:</strong> <ContactLink href='tel:+913222563040'>03222563040</ContactLink><br />
+                            <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/915438645502' rel='noreferrer noopener' target='_blank'>05438645502</ContactLink><br />
+                            <strong>Skype:</strong> <ContactLink href='skype:blm-muhendislik@outlook.com?chat' rel='noreferrer noopener' target='_blank'>blm-muhendislik@outlook.com</ContactLink>
+                        </Paragraph>
                     </FooterItem>
                     <FooterItem>
-                        <div>
-                            <Link>Home</Link>
-                            <Link>Produkte & Lieferprogramm</Link>
-                            <Link>Impressum</Link>
-                            <Link>Kontakt</Link>
-                        </div>
+                        <LinkWrapper>
+                            <FooterLink to='/'>Home</FooterLink>
+                            <FooterLink to='/produkte'>Produkte</FooterLink>
+                            <FooterLink to='/impressum'>Impressum</FooterLink>
+                            <FooterLink to='/kontakt'>Kontakt</FooterLink>
+                        </LinkWrapper>
                     </FooterItem>
                 </Wrapper>
                 <Copyright>&#169; {this.copyrightYear} BLM International Mühendislik.  Alle Inhalte unterliegen unserem Copyright.</Copyright>

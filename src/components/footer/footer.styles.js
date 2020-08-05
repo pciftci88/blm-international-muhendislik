@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
     display: flex;
@@ -16,7 +17,7 @@ export const Wrapper = styled.div`
 
 export const FooterItem = styled.div`
     padding: 0 20px;
-    line-height: 1.3em;
+    line-height: 1.5em;
     max-width: 30%;
 
     &:first-child {
@@ -35,6 +36,7 @@ export const FooterItem = styled.div`
 
         &:not(:last-child) {
             margin-bottom: 20px;
+            border-bottom: 2px solid #fff;
         }
     }
 `;
@@ -44,9 +46,15 @@ export const Title = styled.h2`
     margin-bottom: 20px;
 `;
 
-export const Link = styled.a`
+export const FooterLink = styled(Link)`
     display: block;
     margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+    @media (max-width: 1020px) {
+        padding-right: 10px;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -55,4 +63,19 @@ export const Paragraph = styled.p`
 
 export const Copyright = styled.p`
     margin: 0 40px 10px;
+`;
+
+export const LinkWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1020px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+`;
+
+export const ContactLink = styled.a`
+    color: #fff;
+    text-decoration: none;
 `;

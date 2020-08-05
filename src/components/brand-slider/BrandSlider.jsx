@@ -1,7 +1,7 @@
 import React from 'react';
 import '@ui5/webcomponents/dist/Carousel';
 
-import { Wrapper, Title } from './brand-slider.styles';
+import { Wrapper, Title } from './BrandSlider.styles';
 
 import dyniscoLogo from '../../images/logos/dynisco-logo.jpg';
 import endressHauserLogo from '../../images/logos/endress-hauser-logo.jpg';
