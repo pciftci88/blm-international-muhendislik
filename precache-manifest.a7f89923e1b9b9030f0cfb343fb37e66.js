@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "757757df5a511d5a0baeeba8b49b412f",
+    "revision": "0b3eae301c0e7fe45adfbe7f84b31945",
     "url": "/blm-international-muhendislik/index.html"
   },
   {
-    "revision": "639bfd575a5fa8ee040d",
+    "revision": "e7605e46eb795891836b",
     "url": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "68c7ae37537d896a5ec7",
-    "url": "/blm-international-muhendislik/static/css/main.8083684c.chunk.css"
+    "revision": "76f67cd20cc05f6e2ae5",
+    "url": "/blm-international-muhendislik/static/css/main.305c67bc.chunk.css"
   },
   {
-    "revision": "639bfd575a5fa8ee040d",
-    "url": "/blm-international-muhendislik/static/js/2.1a0f8ea0.chunk.js"
+    "revision": "e7605e46eb795891836b",
+    "url": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js"
   },
   {
     "revision": "41da2c017c53f502fa501172a04782db",
-    "url": "/blm-international-muhendislik/static/js/2.1a0f8ea0.chunk.js.LICENSE.txt"
+    "url": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68c7ae37537d896a5ec7",
-    "url": "/blm-international-muhendislik/static/js/main.0d3ac2c4.chunk.js"
+    "revision": "76f67cd20cc05f6e2ae5",
+    "url": "/blm-international-muhendislik/static/js/main.384e5931.chunk.js"
   },
   {
     "revision": "ee8221ec22301d474bd5",
@@ -52,15 +52,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blm-international-muhendislik/static/media/seepex-logo.21c4f5e4.jpg"
   },
   {
+    "revision": "c4e95ae57304996c4e4ab8fd015deb11",
+    "url": "/blm-international-muhendislik/static/media/slide-1.c4e95ae5.jpg"
+  },
+  {
     "revision": "0a0a67df6eaa333bbdfe7ad2f2786457",
-    "url": "/blm-international-muhendislik/static/media/slide-1.0a0a67df.jpg"
+    "url": "/blm-international-muhendislik/static/media/slide-2.0a0a67df.jpg"
   },
   {
     "revision": "288dee5e31f6ce982a22eb4ffa45361a",
-    "url": "/blm-international-muhendislik/static/media/slide-2.288dee5e.jpg"
+    "url": "/blm-international-muhendislik/static/media/slide-3.288dee5e.jpg"
   },
   {
     "revision": "219cd1bfaab7949837a9dc1653192f14",
-    "url": "/blm-international-muhendislik/static/media/slide-3.219cd1bf.jpg"
+    "url": "/blm-international-muhendislik/static/media/slide-4.219cd1bf.jpg"
   }
 ]);
