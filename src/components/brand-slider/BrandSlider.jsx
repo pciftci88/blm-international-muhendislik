@@ -16,7 +16,7 @@ class BrandSlider extends React.Component {
     render() {
         return (
             <Wrapper>
-                <Title>Unsere Partner</Title>
+                <Title>Unsere Marken</Title>
                 <ui5-carousel
                     items-per-page-s="1"
                     items-per-page-m="3"

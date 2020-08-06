@@ -45,6 +45,7 @@ class Footer extends React.Component {
                             <FooterLink to='/produkte'>Produkte</FooterLink>
                             <FooterLink to='/impressum'>Impressum</FooterLink>
                             <FooterLink to='/kontakt'>Kontakt</FooterLink>
+                            <FooterLink to='/ueber-uns'>Über uns</FooterLink>
                         </LinkWrapper>
                     </FooterItem>
                 </Wrapper>

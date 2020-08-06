@@ -14,7 +14,7 @@ import '@ui5/webcomponents-icons/dist/icons/call.js'
 import '@ui5/webcomponents-icons/dist/icons/email.js'
 import '@ui5/webcomponents/dist/Button';
 
-function Header() {
+function Header(props) {
     return (
         <React.Fragment>
             <Wrapper>
@@ -23,9 +23,10 @@ function Header() {
                 </Link>
                 <Navi>
                     <NaviItem to="/">Home</NaviItem>
-                    <NaviItem to="/produkte">Produkte & Lieferprogramm</NaviItem>
+                    <NaviItem to="/produkte">Produkte</NaviItem>
                     <NaviItem to="/impressum">Impressum</NaviItem>
                     <NaviItem to="/kontakt">Kontakt</NaviItem>
+                    <NaviItem to="/ueber-uns">Über uns</NaviItem>
                 </Navi>
                 <Contact>
                     <a href='tel:+913222563040'>

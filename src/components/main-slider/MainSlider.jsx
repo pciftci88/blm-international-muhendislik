@@ -9,8 +9,14 @@ import slide2 from '../../images/slider/slide-2.jpg';
 import slide3 from '../../images/slider/slide-3.jpg';
 import slide4 from '../../images/slider/slide-4.jpg';
 
+import sliderData from '../../data/mainSliderData';
+
 function MainSlider() {
     const legentTitle = 'Jetzt anfragen';
+    sliderData.slides.map((key, index) => {
+        return key;
+    });
+
     return (
         <Wrapper>
             <Carousel

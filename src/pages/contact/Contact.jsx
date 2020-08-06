@@ -1,33 +1,47 @@
 import React from 'react';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
-import { mapStyles, Wrapper } from './Contact.styles';
+import {
+    Wrapper,
+    ContactBlock,
+    ContactNameBlock,
+    Title
+} from './Contact.styles';
+
+import "@ui5/webcomponents/dist/Label";
+import "@ui5/webcomponents/dist/Input";
+import "@ui5/webcomponents/dist/TextArea";
 
 class Contact extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            lat: 37.030362,
-            lng: 35.243369
-        }
-    }
-
     render() {
         return (
             <Wrapper>
-                <Map
-                    google={this.props.google}
-                    zoom={8}
-                    style={mapStyles}
-                    initialCenter={{ lat: 47.444, lng: -122.176 }}
-                >
-                    <Marker position={{ lat: this.state.lat, lng: this.state.lng }} />
-                </Map>
+                <Title>Kontaktformular</Title>
+                <ContactNameBlock>
+                    <ContactBlock>
+                        <ui5-label for="firstName" required show-colon>Vorname</ui5-label>
+                        <ui5-input id="firstName" aria-required="true" aria-labelledby="firstName" placeholder="Vorname"></ui5-input>
+                    </ContactBlock>
+                    <ContactBlock>
+                        <ui5-label for="lastName" required show-colon>Nachname</ui5-label>
+                        <ui5-input id="lastName" aria-required="true" aria-labelledby="lastName" placeholder="Nachname"></ui5-input>
+                    </ContactBlock>
+                </ContactNameBlock>
+                <ContactBlock>
+                    <ui5-label for="email" required show-colon>E-Mail</ui5-label>
+                    <ui5-input id="email" aria-required="true" aria-labelledby="email" placeholder="Ihre E-Mail Adresse"></ui5-input>
+                </ContactBlock>
+                <ContactBlock>
+                    <ui5-label for="phone" show-colon>Telefon</ui5-label>
+                    <ui5-input id="phone" aria-required="false" aria-labelledby="phone" placeholder="Ihre Telefonnummer"></ui5-input>
+                </ContactBlock>
+                <ContactBlock>
+                    <ui5-label for="message" required show-colon>Ihre Anfrage</ui5-label>
+                    <ui5-textarea id="message" aria-labelledby="message" aria-required="true" placeholder="Schreiben Sie uns eine Nachricht"></ui5-textarea>
+                </ContactBlock>
+                <ui5-button design='Emphasized'>Anfrage senden</ui5-button>
             </Wrapper>
         );
     }
 }
 
-export default GoogleApiWrapper({
-    apiKey: 'TOKEN HERE'
-})(Contact);
+export default Contact;
