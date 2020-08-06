@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b3eae301c0e7fe45adfbe7f84b31945",
+    "revision": "3f83c9203ad99cf1ea6eb26511bc0535",
     "url": "/blm-international-muhendislik/index.html"
   },
   {
-    "revision": "e7605e46eb795891836b",
+    "revision": "f111ca0c95da83c3c6a9",
     "url": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "76f67cd20cc05f6e2ae5",
+    "revision": "6b4d349d5e3b8a69a687",
     "url": "/blm-international-muhendislik/static/css/main.305c67bc.chunk.css"
   },
   {
-    "revision": "e7605e46eb795891836b",
-    "url": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js"
+    "revision": "f111ca0c95da83c3c6a9",
+    "url": "/blm-international-muhendislik/static/js/2.2595a912.chunk.js"
   },
   {
     "revision": "41da2c017c53f502fa501172a04782db",
-    "url": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js.LICENSE.txt"
+    "url": "/blm-international-muhendislik/static/js/2.2595a912.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76f67cd20cc05f6e2ae5",
-    "url": "/blm-international-muhendislik/static/js/main.384e5931.chunk.js"
+    "revision": "6b4d349d5e3b8a69a687",
+    "url": "/blm-international-muhendislik/static/js/main.40c093eb.chunk.js"
   },
   {
     "revision": "ee8221ec22301d474bd5",

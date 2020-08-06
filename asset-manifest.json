@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/blm-international-muhendislik/static/css/main.305c67bc.chunk.css",
-    "main.js": "/blm-international-muhendislik/static/js/main.384e5931.chunk.js",
-    "main.js.map": "/blm-international-muhendislik/static/js/main.384e5931.chunk.js.map",
+    "main.js": "/blm-international-muhendislik/static/js/main.40c093eb.chunk.js",
+    "main.js.map": "/blm-international-muhendislik/static/js/main.40c093eb.chunk.js.map",
     "runtime-main.js": "/blm-international-muhendislik/static/js/runtime-main.aae4ded5.js",
     "runtime-main.js.map": "/blm-international-muhendislik/static/js/runtime-main.aae4ded5.js.map",
     "static/css/2.fb346933.chunk.css": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css",
-    "static/js/2.b41b078c.chunk.js": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js",
-    "static/js/2.b41b078c.chunk.js.map": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js.map",
+    "static/js/2.2595a912.chunk.js": "/blm-international-muhendislik/static/js/2.2595a912.chunk.js",
+    "static/js/2.2595a912.chunk.js.map": "/blm-international-muhendislik/static/js/2.2595a912.chunk.js.map",
     "index.html": "/blm-international-muhendislik/index.html",
-    "precache-manifest.a7f89923e1b9b9030f0cfb343fb37e66.js": "/blm-international-muhendislik/precache-manifest.a7f89923e1b9b9030f0cfb343fb37e66.js",
+    "precache-manifest.6ab7b0ff3ecb803df8231b7c3e5a75b6.js": "/blm-international-muhendislik/precache-manifest.6ab7b0ff3ecb803df8231b7c3e5a75b6.js",
     "service-worker.js": "/blm-international-muhendislik/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css.map",
     "static/css/main.305c67bc.chunk.css.map": "/blm-international-muhendislik/static/css/main.305c67bc.chunk.css.map",
-    "static/js/2.b41b078c.chunk.js.LICENSE.txt": "/blm-international-muhendislik/static/js/2.b41b078c.chunk.js.LICENSE.txt",
+    "static/js/2.2595a912.chunk.js.LICENSE.txt": "/blm-international-muhendislik/static/js/2.2595a912.chunk.js.LICENSE.txt",
     "static/media/endress-hauser-logo.jpg": "/blm-international-muhendislik/static/media/endress-hauser-logo.6913905c.jpg",
     "static/media/gestra-logo.jpg": "/blm-international-muhendislik/static/media/gestra-logo.66056e24.jpg",
     "static/media/hawe-hydraulic-logo.jpg": "/blm-international-muhendislik/static/media/hawe-hydraulic-logo.2c422947.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.aae4ded5.js",
     "static/css/2.fb346933.chunk.css",
-    "static/js/2.b41b078c.chunk.js",
+    "static/js/2.2595a912.chunk.js",
     "static/css/main.305c67bc.chunk.css",
-    "static/js/main.384e5931.chunk.js"
+    "static/js/main.40c093eb.chunk.js"
   ]
 }
