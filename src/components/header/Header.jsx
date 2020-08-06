@@ -14,7 +14,7 @@ import '@ui5/webcomponents-icons/dist/icons/call.js'
 import '@ui5/webcomponents-icons/dist/icons/email.js'
 import '@ui5/webcomponents/dist/Button';
 
-function Header(props) {
+function Header() {
     return (
         <React.Fragment>
             <Wrapper>
