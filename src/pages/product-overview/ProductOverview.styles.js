@@ -22,6 +22,10 @@ export const ProductWrapper = styled.div`
 
     @media (max-width: 1020px) {
         flex-direction: column;
+        &:not(:last-child) {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
     }
 `;
 
@@ -30,6 +34,10 @@ export const ProductBlock = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin-right: 40px;
+
+    @media (max-width: 1020px) {
+        margin-bottom: 15px;
+    }
 `;
 
 export const ProductImagesWrapper = styled.div`
