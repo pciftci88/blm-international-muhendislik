@@ -2,14 +2,16 @@ import React from 'react';
 import {
     Wrapper,
     Title,
-    ContentBlock
+    ContentBlock,
+    ContentBlockTitle
 } from './Impressum.styles';
 
 function Impressum() {
     return (
         <Wrapper>
+            <Title>Impressum</Title>
             <ContentBlock>
-                <Title>Adresse</Title>
+                <ContentBlockTitle>Adresse</ContentBlockTitle>
                 <p>
                     BLM International Mühendislik<br />
                     Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
@@ -17,7 +19,7 @@ function Impressum() {
                 </p>
             </ContentBlock>
             <ContentBlock>
-                <Title>Kontakt</Title>
+                <ContentBlockTitle>Kontakt</ContentBlockTitle>
                 <p>Sie erreichen unseren Kundenservice montags bis freitags von 9:00 Uhr bis 18:00 Uhr.</p>
                 <p>
                     Tel.: 03222563040<br />
