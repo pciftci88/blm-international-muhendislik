@@ -36,6 +36,7 @@ export const ProductImagesWrapper = styled.div`
     @media (max-width: 1020px) {
         display: flex;
         align-items: center;
+        flex-direction: column;
     }
 `;
 
@@ -46,6 +47,10 @@ export const BrandsBlock = styled.div`
 
 export const LogoWrapper = styled.div`
     display: flex;
+
+    @media (max-width: 1020px) {
+        flex-wrap: wrap;
+    }
 `;
 
 export const Logo = styled.img`
