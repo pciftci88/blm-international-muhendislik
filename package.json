@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://pciftci88.github.io/blm-international-muhendislik",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@ui5/webcomponents": "^1.0.0-rc.8",
     "@ui5/webcomponents-fiori": "^1.0.0-rc.8",
     "@ui5/webcomponents-icons": "^1.0.0-rc.8",

@@ -9,20 +9,37 @@ import Impressum from './pages/impressum/Impressum';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 
-function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/produkte" component={ProductOverview} />
-        <Route exact path="/impressum" component={Impressum} />
-        <Route exact path="/kontakt" component={Contact} />
-        <Route exact path="/ueber-uns" component={About} />
-      </Switch>
-      <Footer />
-    </React.Fragment>
-  );
+import MobileToolbar from './components/mobile-toolbar/MobileToolbar';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: false
+    }
+  }
+
+  componentDidMount() {
+    this.setState({
+      isMobile: window.innerWidth <= 1020
+    });
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        {this.state.isMobile ? (<MobileToolbar />) : (<Header />)}
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/produkte" component={ProductOverview} />
+          <Route exact path="/impressum" component={Impressum} />
+          <Route exact path="/kontakt" component={Contact} />
+          <Route exact path="/ueber-uns" component={About} />
+        </Switch>
+        <Footer />
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;

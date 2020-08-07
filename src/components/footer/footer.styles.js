@@ -63,6 +63,11 @@ export const Paragraph = styled.p`
 
 export const Copyright = styled.p`
     margin: 0 40px 10px;
+
+    @media (max-width: 1020px) {
+        margin: 20px 0;
+        text-align: center;
+    }
 `;
 
 export const LinkWrapper = styled.div`
