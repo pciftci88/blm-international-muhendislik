@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28f545a3592f9d2dac1f4ed4b76aec16",
+    "revision": "d574e573d045b256966f9934702752fc",
     "url": "/blm-international-muhendislik/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "44b6653ff18b522ccdd4",
+    "revision": "61fc72838717ba49a532",
     "url": "/blm-international-muhendislik/static/css/main.29c3c034.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blm-international-muhendislik/static/js/2.f2d4554d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44b6653ff18b522ccdd4",
-    "url": "/blm-international-muhendislik/static/js/main.b5b5420e.chunk.js"
+    "revision": "61fc72838717ba49a532",
+    "url": "/blm-international-muhendislik/static/js/main.524a02ae.chunk.js"
   },
   {
     "revision": "ee8221ec22301d474bd5",
