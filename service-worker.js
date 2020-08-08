@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blm-international-muhendislik/precache-manifest.f0508feb47499938d68831fe39844825.js"
+  "/blm-international-muhendislik/precache-manifest.7824acb329e2f09eadde40be9d8bbde6.js"
 );
 
 self.addEventListener('message', (event) => {
