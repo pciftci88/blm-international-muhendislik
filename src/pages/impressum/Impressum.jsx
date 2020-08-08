@@ -1,39 +1,44 @@
 import React from 'react';
 import {
     Wrapper,
-    Title,
     ContentBlock,
     ContentBlockTitle
 } from './Impressum.styles';
 
+import Teaser from '../../components/teaser/Teaser';
+
+import teaser from '../../images/teaser/impressum.jpg';
+
 function Impressum() {
     return (
-        <Wrapper>
-            <Title>Impressum</Title>
-            <ContentBlock>
-                <ContentBlockTitle>Adresse</ContentBlockTitle>
-                <p>
-                    BLM International Mühendislik<br />
-                    Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
-                    Adana/Türkiye
-                </p>
-            </ContentBlock>
-            <ContentBlock>
-                <ContentBlockTitle>Kontakt</ContentBlockTitle>
-                <p>Sie erreichen unseren Kundenservice montags bis freitags von 9:00 Uhr bis 18:00 Uhr.</p>
-                <p>
-                    Tel.: 03222563040<br />
-                    WhatsApp: 05438645502<br />
-                    Skype: blm-muhendislik@outlook.com<br />
-                </p>
-            </ContentBlock>
-            <ContentBlock>
-                <p>
-                    Geschäftsführung: Benjamin Çiftçi<br />
-                    Programmierung: Philipp Çiftçi
-                </p>
-            </ContentBlock>
-        </Wrapper>
+        <React.Fragment>
+            <Teaser teaser={teaser} headline='Impressum' />
+            <Wrapper>
+                <ContentBlock>
+                    <ContentBlockTitle>Adresse</ContentBlockTitle>
+                    <p>
+                        BLM International Mühendislik<br />
+                        Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
+                        Adana/Türkiye
+                    </p>
+                </ContentBlock>
+                <ContentBlock>
+                    <ContentBlockTitle>Kontakt</ContentBlockTitle>
+                    <p>Sie erreichen unseren Kundenservice montags bis freitags von 9:00 Uhr bis 18:00 Uhr.</p>
+                    <p>
+                        Tel.: +903222563040<br />
+                        WhatsApp: +905438645502<br />
+                        Skype: blm-muhendislik@outlook.com
+                    </p>
+                </ContentBlock>
+                <ContentBlock>
+                    <p>
+                        Geschäftsführung: Benjamin Çiftçi<br />
+                        Programmierung: Philipp Çiftçi
+                    </p>
+                </ContentBlock>
+            </Wrapper>
+        </React.Fragment>
     );
 }
 
