@@ -8,8 +8,8 @@ import ProductOverview from './pages/product-overview/ProductOverview';
 import Impressum from './pages/impressum/Impressum';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
-
 import MobileToolbar from './components/mobile-toolbar/MobileToolbar';
+import ContactBlock from './components/contact-block/ContactBlock';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +28,14 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {this.state.isMobile ? (<MobileToolbar />) : (<Header />)}
+        {this.state.isMobile ? (
+          <React.Fragment>
+            <MobileToolbar />
+            <ContactBlock />
+          </React.Fragment>
+        ) : (
+            <Header />
+          )}
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/produkte" component={ProductOverview} />

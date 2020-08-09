@@ -53,13 +53,3 @@ export const ContactLink = styled(Link)`
     color: #fff;
     text-decoration: none;
 `;
-
-export const Contact = styled.div`
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-
-    @media (max-width: 1020px) {
-        margin-bottom: 10px;
-    }
-`;
