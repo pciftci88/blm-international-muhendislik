@@ -1,43 +1,40 @@
 import React from 'react';
+import { isNil } from 'lodash'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { Wrapper, Legend } from './MainSlider.styles';
 
-import slide1 from '../../images/slider/slide-1.jpg';
-import slide2 from '../../images/slider/slide-2.jpg';
-import slide3 from '../../images/slider/slide-3.jpg';
-import slide4 from '../../images/slider/slide-4.jpg';
+import slides from '../../data/mainSliderData';
 
-function MainSlider() {
-    const legentTitle = 'Jetzt anfragen';
-    return (
-        <Wrapper>
-            <Carousel
-                autoPlay
-                infiniteLoop
-                swipeable
-                showThumbs={false}
-            >
-                <div>
-                    <img src={slide1} alt="Slider-Item" />
-                    <Legend to="/kontakt" className="legend">{legentTitle}</Legend>
-                </div>
-                <div>
-                    <img src={slide2} alt="Slider-Item" />
-                    <Legend to="/kontakt" className="legend">{legentTitle}</Legend>
-                </div>
-                <div>
-                    <img src={slide3} alt="Slider-Item" />
-                    <Legend to="/kontakt" className="legend">{legentTitle}</Legend>
-                </div>
-                <div>
-                    <img src={slide4} alt="Slider-Item" />
-                    <Legend to="/kontakt" className="legend">{legentTitle}</Legend>
-                </div>
-            </Carousel>
-        </Wrapper>
-    );
+class MainSlider extends React.Component {
+    render() {
+        return (
+            <Wrapper>
+                <Carousel
+                    autoPlay
+                    infiniteLoop
+                    swipeable
+                    showThumbs={false}
+                    showStatus={false}
+                >
+                    {
+                        !isNil(slides) && (
+                            slides.map((slide, key) => {
+                                return (
+                                    <div key={key}>
+                                        <img src={slide.src} alt={slide.alt} title={slide.title} />
+                                        <Legend to="/kontakt" className="legend">{slide.legentTitle}</Legend>
+                                    </div>
+                                )
+                            })
+                        )
+                    };
+                </Carousel>
+            </Wrapper>
+        );
+    }
+
 }
 
 export default MainSlider;
