@@ -8,6 +8,7 @@ import ProductOverview from './pages/product-overview/ProductOverview';
 import Impressum from './pages/impressum/Impressum';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
+import BrandsOverview from './pages/brands-overview/BrandsOverview';
 import MobileToolbar from './components/mobile-toolbar/MobileToolbar';
 import ContactBlock from './components/contact-block/ContactBlock';
 
@@ -37,11 +38,12 @@ class App extends React.Component {
             <Header />
           )}
         <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/produkte" component={ProductOverview} />
-          <Route exact path="/impressum" component={Impressum} />
-          <Route exact path="/kontakt" component={Contact} />
-          <Route exact path="/ueber-uns" component={About} />
+          <Route exact path='/' component={Homepage} />
+          <Route exact path='/produkte' component={ProductOverview} />
+          <Route exact path='/impressum' component={Impressum} />
+          <Route exact path='/kontakt' component={Contact} />
+          <Route exact path='/ueber-uns' component={About} />
+          <Route exact path='/markenuebersicht' component={BrandsOverview} />
         </Switch>
         <Footer />
       </React.Fragment>

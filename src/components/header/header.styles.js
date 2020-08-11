@@ -49,7 +49,7 @@ export const Logo = styled.img`
     max-width: 80px;
 `;
 
-export const ContactLink = styled(Link)`
+export const ContactLink = styled.a`
     color: #fff;
     text-decoration: none;
 `;

@@ -29,9 +29,9 @@ class Footer extends React.Component {
                     <FooterItem>
                         <Title>Adresse</Title>
                         <Paragraph>
-                            BLM International Mühendislik<br />
-                            Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
-                            Adana/Türkiye
+                            BLM International Mühendislik - Benjamin Çiftçi<br />
+                            Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
+                            01200 Seyhan/Adana Türkiye
                         </Paragraph>
                         <Paragraph>
                             <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />
@@ -43,13 +43,13 @@ class Footer extends React.Component {
                         <LinkWrapper>
                             <FooterLink to='/'>Home</FooterLink>
                             <FooterLink to='/produkte'>Produkte</FooterLink>
+                            <FooterLink to='/markenuebersicht'>Marken</FooterLink>
                             <FooterLink to='/impressum'>Impressum</FooterLink>
-                            <FooterLink to='/kontakt'>Kontakt</FooterLink>
                             <FooterLink to='/ueber-uns'>Über uns</FooterLink>
                         </LinkWrapper>
                     </FooterItem>
                 </Wrapper>
-                <Copyright>&#169; {this.copyrightYear} BLM International Mühendislik.  Alle Inhalte unterliegen unserem Copyright.</Copyright>
+                <Copyright>&#169; {this.copyrightYear} BLM International Mühendislik - Benjamin Çiftçi.  Alle Inhalte unterliegen unserem Copyright.</Copyright>
             </React.Fragment>
         );
     }

@@ -18,8 +18,8 @@ function Impressum() {
                     <ContentBlockTitle>Adresse</ContentBlockTitle>
                     <p>
                         BLM International Mühendislik<br />
-                        Bahçeşehir mah. 86045 sok. No.8 kat.4<br />
-                        Adana/Türkiye
+                        Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
+                        01200 Seyhan/Adana Türkiye
                     </p>
                 </ContentBlock>
                 <ContentBlock>
