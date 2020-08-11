@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/blm-international-muhendislik/static/css/main.29c3c034.chunk.css",
-    "main.js": "/blm-international-muhendislik/static/js/main.2541ce04.chunk.js",
-    "main.js.map": "/blm-international-muhendislik/static/js/main.2541ce04.chunk.js.map",
+    "main.js": "/blm-international-muhendislik/static/js/main.eda148cc.chunk.js",
+    "main.js.map": "/blm-international-muhendislik/static/js/main.eda148cc.chunk.js.map",
     "runtime-main.js": "/blm-international-muhendislik/static/js/runtime-main.aae4ded5.js",
     "runtime-main.js.map": "/blm-international-muhendislik/static/js/runtime-main.aae4ded5.js.map",
     "static/css/2.fb346933.chunk.css": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css",
-    "static/js/2.12077cc8.chunk.js": "/blm-international-muhendislik/static/js/2.12077cc8.chunk.js",
-    "static/js/2.12077cc8.chunk.js.map": "/blm-international-muhendislik/static/js/2.12077cc8.chunk.js.map",
+    "static/js/2.677622f4.chunk.js": "/blm-international-muhendislik/static/js/2.677622f4.chunk.js",
+    "static/js/2.677622f4.chunk.js.map": "/blm-international-muhendislik/static/js/2.677622f4.chunk.js.map",
     "index.html": "/blm-international-muhendislik/index.html",
-    "precache-manifest.748d8559dea9f524095c380da899cb75.js": "/blm-international-muhendislik/precache-manifest.748d8559dea9f524095c380da899cb75.js",
+    "precache-manifest.406855483c90b0a636a1b2e2f40711cb.js": "/blm-international-muhendislik/precache-manifest.406855483c90b0a636a1b2e2f40711cb.js",
     "service-worker.js": "/blm-international-muhendislik/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/blm-international-muhendislik/static/css/2.fb346933.chunk.css.map",
     "static/css/main.29c3c034.chunk.css.map": "/blm-international-muhendislik/static/css/main.29c3c034.chunk.css.map",
-    "static/js/2.12077cc8.chunk.js.LICENSE.txt": "/blm-international-muhendislik/static/js/2.12077cc8.chunk.js.LICENSE.txt",
+    "static/js/2.677622f4.chunk.js.LICENSE.txt": "/blm-international-muhendislik/static/js/2.677622f4.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/blm-international-muhendislik/static/media/about.49e866a6.jpg",
     "static/media/automatisierung.jpg": "/blm-international-muhendislik/static/media/automatisierung.284ff933.jpg",
     "static/media/contact.jpg": "/blm-international-muhendislik/static/media/contact.98aa0704.jpg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.aae4ded5.js",
     "static/css/2.fb346933.chunk.css",
-    "static/js/2.12077cc8.chunk.js",
+    "static/js/2.677622f4.chunk.js",
     "static/css/main.29c3c034.chunk.css",
-    "static/js/main.2541ce04.chunk.js"
+    "static/js/main.eda148cc.chunk.js"
   ]
 }
