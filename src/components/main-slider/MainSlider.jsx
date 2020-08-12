@@ -24,7 +24,7 @@ class MainSlider extends React.Component {
                                 return (
                                     <div key={key}>
                                         <img src={slide.src} alt={slide.alt} title={slide.title} />
-                                        <Legend to="/kontakt" className="legend">{slide.legentTitle}</Legend>
+                                        <Legend href='mailto:blm-muhendislik@outlook.com' rel='noreferrer noopener' target='_blank' className="legend">{slide.legentTitle}</Legend>
                                     </div>
                                 )
                             })

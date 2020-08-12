@@ -149,6 +149,11 @@ function PersistentDrawerLeft() {
                             <ListItemText primary={'Produkte'} />
                         </ListItem>
                     </NaviItem>
+                    <NaviItem to="/markenuebersicht">
+                        <ListItem button>
+                            <ListItemText primary={'Marken'} />
+                        </ListItem>
+                    </NaviItem>
                     <NaviItem to="/impressum">
                         <ListItem button>
                             <ListItemText primary={'Impressum'} />

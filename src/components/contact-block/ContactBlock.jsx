@@ -9,7 +9,7 @@ import '@ui5/webcomponents/dist/Button';
 function ContactBlock() {
     return (
         <Contact>
-            <a href='tel:+913222563040'>
+            <a href='tel:+903222563040'>
                 <ui5-button icon="call" design="Positive" aria-labelledby="lblCall"></ui5-button>
             </a>
             <a href='mailto:blm-muhendislik@outlook.com' rel='noreferrer noopener' target='_blank'>
