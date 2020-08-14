@@ -12,7 +12,7 @@ function ContactBlock() {
             <a href='tel:+903222563040'>
                 <ui5-button icon="call" design="Positive" aria-labelledby="lblCall"></ui5-button>
             </a>
-            <a href='mailto:blm-muhendislik@outlook.com' rel='noreferrer noopener' target='_blank'>
+            <a href='mailto:info@blm-international.com' rel='noreferrer noopener' target='_blank'>
                 <ui5-button icon="email" design="Positive" aria-labelledby="lblEmail"></ui5-button>
             </a>
         </Contact>

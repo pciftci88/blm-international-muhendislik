@@ -28,7 +28,7 @@ function Impressum() {
                     <p>
                         Tel.: +903222563040<br />
                         WhatsApp: +905438645502<br />
-                        Skype: blm-muhendislik@outlook.com
+                        Skype: info@blm-international.com
                     </p>
                 </ContentBlock>
                 <ContentBlock>

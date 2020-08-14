@@ -36,7 +36,7 @@ class Footer extends React.Component {
                         <Paragraph>
                             <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />
                             <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/905438645502' rel='noreferrer noopener' target='_blank'>+905438645502</ContactLink><br />
-                            <strong>Skype:</strong> <ContactLink href='skype:blm-muhendislik@outlook.com?chat' rel='noreferrer noopener' target='_blank'>blm-muhendislik@outlook.com</ContactLink>
+                            <strong>Skype:</strong> <ContactLink href='skype:info@blm-international.com?chat' rel='noreferrer noopener' target='_blank'>info@blm-international.com</ContactLink>
                         </Paragraph>
                     </FooterItem>
                     <FooterItem>
