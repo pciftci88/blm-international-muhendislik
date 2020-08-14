@@ -1,0 +1,46 @@
+{
+    "Nav": {
+        "home": "Home",
+        "products": "Products",
+        "brands": "Brands",
+        "imprint": "Imprint",
+        "about": "About us"
+    },
+    "About": {
+        "1": "BLM International Mühendislik is specialized in the supply of spare parts and machines.",
+        "2": "Our products are for the industrial sector all over the world.",
+        "3": "We can provide you with spare parts or new products, depending on your needs. You will find hydraulics, pneumatics or automation products in our collection."
+    },
+    "Imprint": {
+        "address": "Adresse",
+        "contact": "Contact",
+        "opening": "You can reach our customer service Monday to Friday from 9:00 a.m. to 6:00 p.m."
+    },
+    "Copyright": {
+        "1": "All rights reserved."
+    },
+    "Offertext": {
+        "1": "Request a supply",
+        "2": "Request now"
+    },
+    "Teaser": {
+        "products": "Product overview",
+        "brands": "Brands overview",
+        "imprint": "Imprint",
+        "about": "About us",
+        "contact": "Contact"
+    },
+    "Products": {
+        "title": "Our products",
+        "brands": "Brands",
+        "hydraulics": "Hydraulic products",
+        "pneumatics": "Pneumatic products",
+        "automation": "Automation products",
+        "motorspumps": "Motors & pumps",
+        "motors": "Motors",
+        "pumps": "Pumps"
+    },
+    "Brandslider": {
+        "title": "Our brands"
+    }
+}

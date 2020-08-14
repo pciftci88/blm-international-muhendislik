@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "./static/css/main.29c3c034.chunk.css",
-    "main.js": "./static/js/main.0d681a85.chunk.js",
-    "main.js.map": "./static/js/main.0d681a85.chunk.js.map",
+    "main.js": "./static/js/main.4c236e87.chunk.js",
+    "main.js.map": "./static/js/main.4c236e87.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.23c7bdcf.js",
     "runtime-main.js.map": "./static/js/runtime-main.23c7bdcf.js.map",
     "static/css/2.fb346933.chunk.css": "./static/css/2.fb346933.chunk.css",
-    "static/js/2.0c030fc1.chunk.js": "./static/js/2.0c030fc1.chunk.js",
-    "static/js/2.0c030fc1.chunk.js.map": "./static/js/2.0c030fc1.chunk.js.map",
+    "static/js/2.8ed9a34a.chunk.js": "./static/js/2.8ed9a34a.chunk.js",
+    "static/js/2.8ed9a34a.chunk.js.map": "./static/js/2.8ed9a34a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b0a8ae0fc7d92dd194ecb45ddb4d774c.js": "./precache-manifest.b0a8ae0fc7d92dd194ecb45ddb4d774c.js",
+    "precache-manifest.22f5f5c6af62e4030d0024ecb80056f1.js": "./precache-manifest.22f5f5c6af62e4030d0024ecb80056f1.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "./static/css/2.fb346933.chunk.css.map",
     "static/css/main.29c3c034.chunk.css.map": "./static/css/main.29c3c034.chunk.css.map",
-    "static/js/2.0c030fc1.chunk.js.LICENSE.txt": "./static/js/2.0c030fc1.chunk.js.LICENSE.txt",
+    "static/js/2.8ed9a34a.chunk.js.LICENSE.txt": "./static/js/2.8ed9a34a.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "./static/media/about.49e866a6.jpg",
     "static/media/automatisierung.jpg": "./static/media/automatisierung.284ff933.jpg",
     "static/media/contact.jpg": "./static/media/contact.98aa0704.jpg",
     "static/media/endress-hauser-logo.jpg": "./static/media/endress-hauser-logo.6913905c.jpg",
+    "static/media/english.jpg": "./static/media/english.b9061449.jpg",
     "static/media/gestra-logo.jpg": "./static/media/gestra-logo.66056e24.jpg",
+    "static/media/getFetch.cjs": "./static/media/getFetch.013f0b90.cjs",
     "static/media/hawe-hydraulic-logo.jpg": "./static/media/hawe-hydraulic-logo.2c422947.jpg",
     "static/media/hydraulik.jpg": "./static/media/hydraulik.ff58622f.jpg",
     "static/media/impressum.jpg": "./static/media/impressum.46b36123.jpg",
@@ -39,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.23c7bdcf.js",
     "static/css/2.fb346933.chunk.css",
-    "static/js/2.0c030fc1.chunk.js",
+    "static/js/2.8ed9a34a.chunk.js",
     "static/css/main.29c3c034.chunk.css",
-    "static/js/main.0d681a85.chunk.js"
+    "static/js/main.4c236e87.chunk.js"
   ]
 }

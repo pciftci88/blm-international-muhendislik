@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edb27d974fb07a5e8cc53cc2caaac70c",
+    "revision": "04f231ae951e4061d215acee745b3c3e",
     "url": "./index.html"
   },
   {
-    "revision": "b16347ff9f0da510bc4f",
+    "revision": "1911fb72465a8c7b473c",
     "url": "./static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "ec19fd282abda65d4d7d",
+    "revision": "f30d2e83429a34917906",
     "url": "./static/css/main.29c3c034.chunk.css"
   },
   {
-    "revision": "b16347ff9f0da510bc4f",
-    "url": "./static/js/2.0c030fc1.chunk.js"
+    "revision": "1911fb72465a8c7b473c",
+    "url": "./static/js/2.8ed9a34a.chunk.js"
   },
   {
     "revision": "30eed5bebef7b8e782ae1ad885ae4334",
-    "url": "./static/js/2.0c030fc1.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.8ed9a34a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec19fd282abda65d4d7d",
-    "url": "./static/js/main.0d681a85.chunk.js"
+    "revision": "f30d2e83429a34917906",
+    "url": "./static/js/main.4c236e87.chunk.js"
   },
   {
     "revision": "89567f24a5dc366eeadc",
@@ -44,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/endress-hauser-logo.6913905c.jpg"
   },
   {
+    "revision": "b90614495c1ea4c97fb592a01727a18a",
+    "url": "./static/media/english.b9061449.jpg"
+  },
+  {
     "revision": "66056e24fe981a05e001af5c11897087",
     "url": "./static/media/gestra-logo.66056e24.jpg"
+  },
+  {
+    "revision": "013f0b90a4cae7b8bbf13e3fd9e7dc4a",
+    "url": "./static/media/getFetch.013f0b90.cjs"
   },
   {
     "revision": "2c4229471777ffa836fc0eacfd120ce8",
