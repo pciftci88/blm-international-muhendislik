@@ -18,3 +18,9 @@ export const NaviItem = styled(Link)`
         padding: 0 10px;
     }
 `;
+
+export const ToolbarInner = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+`;

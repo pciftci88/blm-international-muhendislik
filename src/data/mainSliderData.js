@@ -7,26 +7,22 @@ const sliderData = [
     {
         "src": slide1,
         "title": "Hydraulik Produkte",
-        "alt": "Hydraulik Produkte",
-        "legentTitle": "Jetzt anfragen"
+        "alt": "Hydraulik Produkte"
     },
     {
         "src": slide2,
         "title": "Produktion",
-        "alt": "Produktion",
-        "legentTitle": "Jetzt anfragen"
+        "alt": "Produktion"
     },
     {
         "src": slide3,
         "title": "Lager",
-        "alt": "Lager",
-        "legentTitle": "Jetzt anfragen"
+        "alt": "Lager"
     },
     {
         "src": slide4,
         "title": "Versand",
-        "alt": "Versand",
-        "legentTitle": "Jetzt anfragen"
+        "alt": "Versand"
     }
 ];
 

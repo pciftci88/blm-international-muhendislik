@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import {
     Wrapper,
     FooterItem,
@@ -10,49 +12,45 @@ import {
     ContactLink
 } from './Footer.styles';
 
-class Footer extends React.Component {
-    constructor() {
-        super();
-        this.copyrightYear = new Date().getFullYear();
-    }
+function Footer() {
+    const copyrightYear = new Date().getFullYear();
+    const { t } = useTranslation();
 
-    render() {
-        return (
-            <React.Fragment>
-                <Wrapper>
-                    <FooterItem>
-                        <Title>Über Uns</Title>
-                        <Paragraph>BLM International Mühendislik spezialisiert sich auf die Lieferung von Ersatzteilen und Maschinen.</Paragraph>
-                        <Paragraph>Unsere Produkte sind für den Industriebereich in aller Welt.</Paragraph>
-                        <Paragraph>Bei uns erhalten Sie Ersatzteile oder Neuprodukte, je nach Bedarf. In unserem Sortimen finden Sie Hydraulik, Pneumatik oder Automatisierungsprodukte.</Paragraph>
-                    </FooterItem>
-                    <FooterItem>
-                        <Title>Adresse</Title>
-                        <Paragraph>
-                            BLM International Mühendislik - Benjamin Çiftçi<br />
-                            Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
-                            01200 Seyhan/Adana Türkiye
-                        </Paragraph>
-                        <Paragraph>
-                            <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />
-                            <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/905438645502' rel='noreferrer noopener' target='_blank'>+905438645502</ContactLink><br />
-                            <strong>Skype:</strong> <ContactLink href='skype:info@blm-international.com?chat' rel='noreferrer noopener' target='_blank'>info@blm-international.com</ContactLink>
-                        </Paragraph>
-                    </FooterItem>
-                    <FooterItem>
-                        <LinkWrapper>
-                            <FooterLink to='/'>Home</FooterLink>
-                            <FooterLink to='/produkte'>Produkte</FooterLink>
-                            <FooterLink to='/markenuebersicht'>Marken</FooterLink>
-                            <FooterLink to='/impressum'>Impressum</FooterLink>
-                            <FooterLink to='/ueber-uns'>Über uns</FooterLink>
-                        </LinkWrapper>
-                    </FooterItem>
-                </Wrapper>
-                <Copyright>&#169; {this.copyrightYear} BLM International Mühendislik - Benjamin Çiftçi.  Alle Inhalte unterliegen unserem Copyright.</Copyright>
-            </React.Fragment>
-        );
-    }
+    return (
+        <React.Fragment>
+            <Wrapper>
+                <FooterItem>
+                    <Title>{t('Nav.about')}</Title>
+                    <Paragraph>{t('About.1')}</Paragraph>
+                    <Paragraph>{t('About.2')}</Paragraph>
+                    <Paragraph>{t('About.3')}</Paragraph>
+                </FooterItem>
+                <FooterItem>
+                    <Title>Adresse</Title>
+                    <Paragraph>
+                        BLM International Mühendislik - Benjamin Çiftçi<br />
+                        Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
+                        01200 Seyhan/Adana Türkiye
+                    </Paragraph>
+                    <Paragraph>
+                        <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />
+                        <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/905438645502' rel='noreferrer noopener' target='_blank'>+905438645502</ContactLink><br />
+                        <strong>Skype:</strong> <ContactLink href='skype:info@blm-international.com?chat' rel='noreferrer noopener' target='_blank'>info@blm-international.com</ContactLink>
+                    </Paragraph>
+                </FooterItem>
+                <FooterItem>
+                    <LinkWrapper>
+                        <FooterLink to='/'>{t('Nav.home')}</FooterLink>
+                        <FooterLink to='/produkte'>{t('Nav.products')}</FooterLink>
+                        <FooterLink to='/markenuebersicht'>{t('Nav.brands')}</FooterLink>
+                        <FooterLink to='/impressum'>{t('Nav.imprint')}</FooterLink>
+                        <FooterLink to='/ueber-uns'>{t('Nav.about')}</FooterLink>
+                    </LinkWrapper>
+                </FooterItem>
+            </Wrapper>
+            <Copyright>&#169; {copyrightYear} BLM International Mühendislik - Benjamin Çiftçi.  {t('Copyright.1')}</Copyright>
+        </React.Fragment>
+    );
 }
 
 export default Footer;

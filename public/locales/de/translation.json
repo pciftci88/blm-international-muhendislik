@@ -1,0 +1,48 @@
+{
+    "Nav": {
+        "home": "Home",
+        "products": "Produkte",
+        "brands": "Marken",
+        "imprint": "Impressum",
+        "about": "Über uns"
+    },
+    "About": {
+        "1": "BLM International Mühendislik spezialisiert sich auf die Lieferung von Ersatzteilen und Maschinen.",
+        "2": "Unsere Produkte sind für den Industriebereich in aller Welt.",
+        "3": "Bei uns erhalten Sie Ersatzteile oder Neuprodukte, je nach Bedarf. In unserem Sortimen finden Sie Hydraulik, Pneumatik oder Automatisierungsprodukte."
+    },
+    "Imprint": {
+        "address": "Adresse",
+        "contact": "Kontakt",
+        "opening": "Sie erreichen unseren Kundenservice montags bis freitags von 9:00 Uhr bis 18:00 Uhr.",
+        "director": "Geschäftsführung",
+        "programming": "Programmierung"
+    },
+    "Copyright": {
+        "1": "Alle Inhalte unterliegen unserem Copyright."
+    },
+    "Offertext": {
+        "1": "Angebot anfordern",
+        "2": "Jetzt anfragen"
+    },
+    "Teaser": {
+        "products": "Produktübersicht",
+        "brands": "Markenübersicht",
+        "imprint": "Impressum",
+        "about": "Über uns",
+        "contact": "Kontakt"
+    },
+    "Products": {
+        "title": "Unsere Produkte",
+        "brands": "Marken",
+        "hydraulics": "Hydraulikprodukte",
+        "pneumatics": "Pneumatikprodukte",
+        "automation": "Automatisierungsprodukte",
+        "motorspumps": "Motoren & Pumpen",
+        "motors": "Motoren",
+        "pumps": "Pumpen"
+    },
+    "Brandslider": {
+        "title": "Unsere Marken"
+    }
+}

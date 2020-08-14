@@ -17,9 +17,11 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 import { Link } from 'react-router-dom';
 
-import { NaviItem, Logo } from './MobileToolbar.styles';
+import { NaviItem, Logo, ToolbarInner } from './MobileToolbar.styles';
 
 import logo from '../../images/logos/logo.jpg';
+
+import Translation from '../../components/translation/Translation';
 
 import '@ui5/webcomponents-icons/dist/icons/call.js'
 import '@ui5/webcomponents-icons/dist/icons/email.js'
@@ -107,20 +109,23 @@ function PersistentDrawerLeft() {
                 })}
             >
                 <Toolbar>
-                    <IconButton
-                        color="inherit"
-                        aria-label="open drawer"
-                        onClick={handleDrawerOpen}
-                        edge="start"
-                        className={clsx(classes.menuButton, open && classes.hide)}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" noWrap>
-                        <Link to='/'>
-                            <Logo src={logo} alt='BLM International Mühendislik' title='BLM Logo' />
-                        </Link>
-                    </Typography>
+                    <ToolbarInner>
+                        <IconButton
+                            color="inherit"
+                            aria-label="open drawer"
+                            onClick={handleDrawerOpen}
+                            edge="start"
+                            className={clsx(classes.menuButton, open && classes.hide)}
+                        >
+                            <MenuIcon />
+                        </IconButton>
+                        <Typography variant="h6" noWrap>
+                            <Link to='/'>
+                                <Logo src={logo} alt='BLM International Mühendislik' title='BLM Logo' />
+                            </Link>
+                        </Typography>
+                        <Translation />
+                    </ToolbarInner>
                 </Toolbar>
             </AppBar>
             <Drawer

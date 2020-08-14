@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import {
     Wrapper,
     ContentBlock,
@@ -10,12 +12,14 @@ import Teaser from '../../components/teaser/Teaser';
 import teaser from '../../images/teaser/impressum.jpg';
 
 function Impressum() {
+    const { t } = useTranslation();
+
     return (
         <React.Fragment>
-            <Teaser teaser={teaser} headline='Impressum' />
+            <Teaser teaser={teaser} headline={t('Nav.imprint')} />
             <Wrapper>
                 <ContentBlock>
-                    <ContentBlockTitle>Adresse</ContentBlockTitle>
+                    <ContentBlockTitle>{t('Imprint.address')}</ContentBlockTitle>
                     <p>
                         BLM International Mühendislik<br />
                         Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
@@ -23,8 +27,8 @@ function Impressum() {
                     </p>
                 </ContentBlock>
                 <ContentBlock>
-                    <ContentBlockTitle>Kontakt</ContentBlockTitle>
-                    <p>Sie erreichen unseren Kundenservice montags bis freitags von 9:00 Uhr bis 18:00 Uhr.</p>
+                    <ContentBlockTitle>{t('Imprint.contact')}</ContentBlockTitle>
+                    <p>{t('Imprint.opening')}</p>
                     <p>
                         Tel.: +903222563040<br />
                         WhatsApp: +905438645502<br />
@@ -33,8 +37,8 @@ function Impressum() {
                 </ContentBlock>
                 <ContentBlock>
                     <p>
-                        Geschäftsführung: Benjamin Çiftçi<br />
-                        Programmierung: Philipp Çiftçi
+                        {t('Imprint.director')}: Benjamin Çiftçi<br />
+                        {t('Imprint.programming')}: Philipp Çiftçi
                     </p>
                 </ContentBlock>
             </Wrapper>

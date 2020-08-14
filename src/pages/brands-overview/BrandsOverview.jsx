@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import {
     Wrapper,
@@ -9,28 +10,24 @@ import {
 
 import brandsData from '../../data/brandsOverviewData';
 
-class BrandsOverview extends React.Component {
-    constructor(props) {
-        super(props);
-        this.alphabet = brandsData[0];
-        this.brands = brandsData[1];
-    }
-    render() {
-        return (
-            <React.Fragment>
-                <Wrapper>
-                    <Title>Unsere Marken</Title>
-                    <BrandsWrapper>
-                        {
-                            this.brands.map((value, key) => {
-                                return <Letter key={key}>{value}</Letter>
-                            })
-                        }
-                    </BrandsWrapper>
-                </Wrapper>
-            </React.Fragment>
-        );
-    }
+function BrandsOverview() {
+    const brands = brandsData[1];
+    const { t } = useTranslation();
+
+    return (
+        <React.Fragment>
+            <Wrapper>
+                <Title>{t('Teaser.brands')}</Title>
+                <BrandsWrapper>
+                    {
+                        brands.map((value, key) => {
+                            return <Letter key={key}>{value}</Letter>
+                        })
+                    }
+                </BrandsWrapper>
+            </Wrapper>
+        </React.Fragment>
+    );
 }
 
 export default BrandsOverview;
