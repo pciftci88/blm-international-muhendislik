@@ -23,6 +23,8 @@ import logo from '../../images/logos/logo.jpg';
 
 import Translation from '../../components/translation/Translation';
 
+import { useTranslation } from 'react-i18next';
+
 import '@ui5/webcomponents-icons/dist/icons/call.js'
 import '@ui5/webcomponents-icons/dist/icons/email.js'
 import '@ui5/webcomponents/dist/Button';
@@ -90,6 +92,8 @@ function PersistentDrawerLeft() {
     const classes = useStyles();
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
+    const { t } = useTranslation();
+
 
     const handleDrawerOpen = () => {
         setOpen(true);
@@ -146,32 +150,27 @@ function PersistentDrawerLeft() {
                 <List>
                     <NaviItem to="/">
                         <ListItem button>
-                            <ListItemText primary={'Home'} />
+                            <ListItemText primary={t('Nav.home')} />
                         </ListItem>
                     </NaviItem>
                     <NaviItem to="/produkte">
                         <ListItem button>
-                            <ListItemText primary={'Produkte'} />
+                            <ListItemText primary={t('Nav.products')} />
                         </ListItem>
                     </NaviItem>
                     <NaviItem to="/markenuebersicht">
                         <ListItem button>
-                            <ListItemText primary={'Marken'} />
+                            <ListItemText primary={t('Nav.brands')} />
                         </ListItem>
                     </NaviItem>
                     <NaviItem to="/impressum">
                         <ListItem button>
-                            <ListItemText primary={'Impressum'} />
-                        </ListItem>
-                    </NaviItem>
-                    <NaviItem to="/kontakt">
-                        <ListItem button>
-                            <ListItemText primary={'Kontakt'} />
+                            <ListItemText primary={t('Nav.imprint')} />
                         </ListItem>
                     </NaviItem>
                     <NaviItem to="/ueber-uns">
                         <ListItem button>
-                            <ListItemText primary={'Über uns'} />
+                            <ListItemText primary={t('Nav.about')} />
                         </ListItem>
                     </NaviItem>
                 </List>
