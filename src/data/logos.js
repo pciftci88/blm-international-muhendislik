@@ -17,9 +17,9 @@ import hydacVectorLogo from '../images/logos/hydac-vector-logo.jpg';
 
 const logos = [
     {
-        "src": airtecLogo,
-        "alt": "Airtec",
-        "title": "Airtec"
+        "src": gestraLogo,
+        "alt": "Gestra",
+        "title": "Gestra"
     },
     {
         "src": dyniscoLogo,
@@ -87,9 +87,9 @@ const logos = [
         "title": "Bucher Hydraulics"
     },
     {
-        "src": gestraLogo,
-        "alt": "Gestra",
-        "title": "Gestra"
+        "src": airtecLogo,
+        "alt": "Airtec",
+        "title": "Airtec"
     },
     {
         "src": hydacVectorLogo,
