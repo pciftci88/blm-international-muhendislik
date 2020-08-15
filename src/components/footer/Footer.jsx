@@ -26,11 +26,11 @@ function Footer() {
                     <Paragraph>{t('About.3')}</Paragraph>
                 </FooterItem>
                 <FooterItem>
-                    <Title>Adresse</Title>
+                    <Title>{t('Imprint.address')}</Title>
                     <Paragraph>
                         BLM International Mühendislik - Benjamin Çiftçi<br />
                         Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
-                        01200 Seyhan/Adana Türkiye
+                        01200 Seyhan/Adana {t('Imprint.country')}
                     </Paragraph>
                     <Paragraph>
                         <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />

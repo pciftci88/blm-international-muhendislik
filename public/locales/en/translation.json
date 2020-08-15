@@ -12,9 +12,10 @@
         "3": "We can provide you with spare parts or new products, depending on your needs. You will find hydraulics, pneumatics or automation products in our collection."
     },
     "Imprint": {
-        "address": "Adresse",
+        "address": "Address",
         "contact": "Contact",
-        "opening": "You can reach our customer service Monday to Friday from 9:00 a.m. to 6:00 p.m."
+        "opening": "You can reach our customer service Monday to Friday from 9:00 a.m. to 6:00 p.m.",
+        "country": "Turkey"
     },
     "Copyright": {
         "1": "All rights reserved."

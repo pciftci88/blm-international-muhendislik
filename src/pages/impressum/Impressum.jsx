@@ -23,7 +23,7 @@ function Impressum() {
                     <p>
                         BLM International Mühendislik<br />
                         Bahcesehir Mah. 86045 Sok. No.8 Kat.4<br />
-                        01200 Seyhan/Adana Türkiye
+                        01200 Seyhan/Adana {t('Imprint.country')}
                     </p>
                 </ContentBlock>
                 <ContentBlock>
