@@ -1,0 +1,48 @@
+{
+    "Nav": {
+        "home": "Anasayfa",
+        "products": "Ürünler",
+        "brands": "Üreticiler",
+        "imprint": "Iletişim",
+        "about": "Hakkımızda"
+    },
+    "About": {
+        "1": "BLM International Mühendislik yedek parça ve makine tedariğinde uzmanlaşmıştır.",
+        "2": " Ürünlerimiz tüm dünyada sanayi sektörü içindir.",
+        "3": " İhtiyaçlarınıza bağlı olarak size yedek parça veya yeni ürünler sağlayabiliriz. Ürün yelpazemizde hidrolik, pnömatik veya otomasyon ürünleri bulacaksınız."
+    },
+    "Imprint": {
+        "address": "Adres",
+        "contact": "Iletişim",
+        "opening": "Çalışma Saatleri Pazartesi-Cuma 9:00 - 18:00.",
+        "director": "Şirket kurucusu",
+        "programming": "Programlama"
+    },
+    "Copyright": {
+        "1": "Alle Inhalte unterliegen unserem Copyright."
+    },
+    "Offertext": {
+        "1": "Teklif isteyin",
+        "2": "Şimdi Sor"
+    },
+    "Teaser": {
+        "products": "Ürün Grupları",
+        "brands": "Markalar",
+        "imprint": "Impressum",
+        "about": "Hakımızda",
+        "contact": "Iletişim"
+    },
+    "Products": {
+        "title": "Ürünlerimiz",
+        "brands": "Markalar",
+        "hydraulics": "Hidrolik Ürünler",
+        "pneumatics": "Pnömatik Ürünler",
+        "automation": "Otomasyon Ürünler",
+        "motorspumps": "Motor & Pompalar",
+        "motors": "Motorlar",
+        "pumps": "Pompalar"
+    },
+    "Brandslider": {
+        "title": " Markalarımız"
+    }
+}
