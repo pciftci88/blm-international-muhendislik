@@ -44,5 +44,10 @@
     },
     "Brandslider": {
         "title": " Markalarımız"
+    },
+    "ProductList": {
+        "title": "Ürün listesi",
+        "tableColumnProduct": "Ürün",
+        "tableColumnSupplier": "Tedarikçi"
     }
 }
