@@ -66,3 +66,9 @@ export const Logo = styled.img`
         margin-right: 10px;
     }
 `;
+
+export const ProductListWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+`;

@@ -45,5 +45,10 @@
     },
     "Brandslider": {
         "title": "Unsere Marken"
+    },
+    "ProductList": {
+        "title": "Produktliste",
+        "tableColumnProduct": "Produkt",
+        "tableColumnSupplier": "Lieferant"
     }
 }

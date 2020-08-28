@@ -1,5 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import uuid from "uuid";
+
+import "@ui5/webcomponents/dist/Assets.js";
+import "@ui5/webcomponents/dist/Table.js";
+import "@ui5/webcomponents/dist/TableColumn.js";
+import "@ui5/webcomponents/dist/TableRow.js";
+import "@ui5/webcomponents/dist/TableCell.js";
 
 import {
     Wrapper,
@@ -8,6 +15,7 @@ import {
     ProductBlock,
     ProductTitle,
     ProductImagesWrapper,
+    ProductListWrapper,
     BrandsBlock,
     LogoWrapper,
     Logo
@@ -34,6 +42,8 @@ import witteLogo from '../../images/logos/witte-logo.jpg';
 import Teaser from '../../components/teaser/Teaser';
 
 import teaser from '../../images/teaser/production.jpg';
+
+import productList from '../../data/productList';
 
 function ProductOverview() {
     const { t } = useTranslation();
@@ -108,8 +118,31 @@ function ProductOverview() {
                         </LogoWrapper>
                     </BrandsBlock>
                 </ProductWrapper>
+                <ProductListWrapper>
+                    <ProductTitle>{t('ProductList.title')}</ProductTitle>
+                    <ui5-table>
+                        <ui5-table-column slot="columns">
+                            <span>{t('ProductList.tableColumnProduct')}</span>
+                        </ui5-table-column>
+                        <ui5-table-column slot="columns">
+                            <span>{t('ProductList.tableColumnSupplier')}</span>
+                        </ui5-table-column>
+                        {
+                            productList.map((listItem) => {
+                                return listItem.products.map((item) => {
+                                    return (
+                                        <ui5-table-row key={uuid.v4()}>
+                                            <ui5-table-cell>{listItem.supplier}</ui5-table-cell>
+                                            <ui5-table-cell>{item}</ui5-table-cell>
+                                        </ui5-table-row>
+                                    )
+                                })
+                            })
+                        }
+                    </ui5-table>
+                </ProductListWrapper>
             </Wrapper>
-        </React.Fragment>
+        </React.Fragment >
     );
 }
 
