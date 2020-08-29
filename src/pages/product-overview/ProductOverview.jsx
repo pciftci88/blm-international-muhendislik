@@ -122,10 +122,10 @@ function ProductOverview() {
                     <ProductTitle>{t('ProductList.title')}</ProductTitle>
                     <ui5-table>
                         <ui5-table-column slot="columns">
-                            <span>{t('ProductList.tableColumnProduct')}</span>
+                            <span>{t('ProductList.tableColumnSupplier')}</span>
                         </ui5-table-column>
                         <ui5-table-column slot="columns">
-                            <span>{t('ProductList.tableColumnSupplier')}</span>
+                            <span>{t('ProductList.tableColumnProduct')}</span>
                         </ui5-table-column>
                         {
                             productList.map((listItem) => {
