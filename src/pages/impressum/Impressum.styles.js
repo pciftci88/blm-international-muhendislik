@@ -12,3 +12,8 @@ export const ContentBlockTitle = styled.h2`
     font-size: 18px;
     margin-bottom: 15px;
 `;
+
+export const NamesParagraph = styled.p`
+    display: flex;
+    align-items: center;
+`;

@@ -15,7 +15,9 @@
         "address": "Address",
         "contact": "Contact",
         "opening": "You can reach our customer service Monday to Friday from 9:00 a.m. to 6:00 p.m.",
-        "country": "Turkey"
+        "country": "Turkey",
+        "director": "CEO",
+        "programming": "Programming"
     },
     "Copyright": {
         "1": "All rights reserved."

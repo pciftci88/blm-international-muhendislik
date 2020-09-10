@@ -4,12 +4,15 @@ import { useTranslation } from 'react-i18next';
 import {
     Wrapper,
     ContentBlock,
-    ContentBlockTitle
+    ContentBlockTitle,
+    NamesParagraph
 } from './Impressum.styles';
 
 import Teaser from '../../components/teaser/Teaser';
 
 import teaser from '../../images/teaser/impressum.jpg';
+
+import linkedInLogo from '../../images/logos/linkedin-logo.jpg';
 
 function Impressum() {
     const { t } = useTranslation();
@@ -30,16 +33,21 @@ function Impressum() {
                     <ContentBlockTitle>{t('Imprint.contact')}</ContentBlockTitle>
                     <p>{t('Imprint.opening')}</p>
                     <p>
-                        Tel.: +903222563040<br />
-                        WhatsApp: +905438645502<br />
-                        Skype: info@blm-international.com
+                        <strong>Tel.:</strong> +903222563040<br />
+                        <strong>WhatsApp:</strong> +905438645502<br />
+                        <strong>Skype:</strong> info@blm-international.com
                     </p>
                 </ContentBlock>
                 <ContentBlock>
-                    <p>
-                        {t('Imprint.director')}: Benjamin Çiftçi<br />
-                        {t('Imprint.programming')}: Philipp Çiftçi
-                    </p>
+                    <NamesParagraph>
+                        <strong>{t('Imprint.director')}:</strong>&nbsp;Benjamin Çiftçi
+                    </NamesParagraph>
+                    <NamesParagraph>
+                        <strong>{t('Imprint.programming')}:</strong>&nbsp;Philipp Çiftçi
+                        <a href='https://www.linkedin.com/in/philipp-ciftci-b14538182/' target='_blank' rel='noopener noreferrer'>
+                            <img src={linkedInLogo} alt='LinkedIn Philipp Ciftci' />
+                        </a>
+                    </NamesParagraph>
                 </ContentBlock>
             </Wrapper>
         </React.Fragment>
