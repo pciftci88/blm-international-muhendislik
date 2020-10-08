@@ -40,7 +40,42 @@
         "automation": "Otomasyon Ürünler",
         "motorspumps": "Motor & Pompalar",
         "motors": "Motorlar",
-        "pumps": "Pompalar"
+        "pumps": "Pompalar",
+        "examples": {
+            "hydraulics": {
+                "0": "Pompalar ve Motorlar",
+                "1": "Filtreler",
+                "2": "silindirler ve valfler",
+                "3": "Güç kaynağı birimleri",
+                "4": "Deniz ve mobil hidrolik sistemler",
+                "5": "Çeşitli sistemler",
+                "6": "akümülatörler",
+                "7": "Yağlama sistemleri"
+            },
+            "pneumatics": {
+                "0": "Oransal valfler, tutucular",
+                "1": "silindirler ve valfler",
+                "2": "Hava amplifikatörü, gaz güçlendirici",
+                "3": "Titreşimli konveyör",
+                "4": "Sıvı pompaları",
+                "5": "konveyör sistemleri",
+                "6": "Yüksek basınçlı bağlantı parçaları",
+                "7": "Solenoid valfler"
+            },
+            "automation": {
+                "0": "sensörler",
+                "1": "Programlanabilir kontroller",
+                "2": "Zamanlayıcılar ve sayaçlar",
+                "3": "Anahtarlar ve denetleyiciler",
+                "4": "Servo ve step motorlar",
+                "5": "AC / DC sürücüler ve motorlar",
+                "6": "Konumlandırma sistemleri",
+                "7": "Hareket sensörleri ve kontrolörler",
+                "8": "Doğrusal ve açısal hareket ürünleri",
+                "9": "Devre koruma cihazları",
+                "10": "Emniyet rölesi"
+            }
+        }
     },
     "Brandslider": {
         "title": " Markalarımız"
@@ -49,5 +84,9 @@
         "title": "Ürün listesi",
         "tableColumnProduct": "Ürün",
         "tableColumnSupplier": "Tedarikçi"
+    },
+    "Partner": {
+        "title": "Yetkili distribütörü",
+        "text": "HESCH INDUSTRIETECHNIK GMBH şirketinin Türkiye'deki resmi yetkili distribütörü."
     }
 }
