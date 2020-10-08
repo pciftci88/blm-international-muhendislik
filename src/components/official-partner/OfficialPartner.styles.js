@@ -17,4 +17,5 @@ export const Title = styled.h2`
 
 export const Text = styled.p`
     margin: 20px 0;
+    text-align: center;
 `;
