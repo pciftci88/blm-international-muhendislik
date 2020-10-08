@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import uuid from "uuid";
+import { v4 as uuidv4 } from 'uuid';
 
 import "@ui5/webcomponents/dist/Assets.js";
 import "@ui5/webcomponents/dist/Table.js";
@@ -131,7 +131,7 @@ function ProductOverview() {
                             productList.map((listItem) => {
                                 return listItem.products.map((item) => {
                                     return (
-                                        <ui5-table-row key={uuid.v4()}>
+                                        <ui5-table-row key={uuidv4()}>
                                             <ui5-table-cell>{listItem.supplier}</ui5-table-cell>
                                             <ui5-table-cell>{item}</ui5-table-cell>
                                         </ui5-table-row>

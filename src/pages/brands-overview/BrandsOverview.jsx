@@ -15,18 +15,16 @@ function BrandsOverview() {
     const { t } = useTranslation();
 
     return (
-        <React.Fragment>
-            <Wrapper>
-                <Title>{t('Teaser.brands')}</Title>
-                <BrandsWrapper>
-                    {
-                        brands.map((value, key) => {
-                            return <Letter key={key}>{value}</Letter>
-                        })
-                    }
-                </BrandsWrapper>
-            </Wrapper>
-        </React.Fragment>
+        <Wrapper>
+            <Title>{t('Teaser.brands')}</Title>
+            <BrandsWrapper>
+                {
+                    brands.map((value, key) => {
+                        return <Letter key={key}>{value}</Letter>
+                    })
+                }
+            </BrandsWrapper>
+        </Wrapper>
     );
 }
 

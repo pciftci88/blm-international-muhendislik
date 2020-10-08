@@ -41,7 +41,42 @@
         "automation": "Automatisierungsprodukte",
         "motorspumps": "Motoren & Pumpen",
         "motors": "Motoren",
-        "pumps": "Pumpen"
+        "pumps": "Pumpen",
+        "examples": {
+            "hydraulics": {
+                "0": "Pumpen und Motoren",
+                "1": "Filter",
+                "2": "Zylinder und Ventile",
+                "3": "Stromversorgungseinheiten",
+                "4": "Marine- und Mobilhydrauliksysteme",
+                "5": "Vielfältige Systeme",
+                "6": "Akkumulatoren",
+                "7": "Schmiersysteme"
+            },
+            "pneumatics": {
+                "0": "Proportionalventile, Greifer",
+                "1": "Zylinder und Ventile",
+                "2": "Luftverstärker, Gasbooster",
+                "3": "Vibrationsförderer",
+                "4": "Flüssigkeitspumpen",
+                "5": "Fördersysteme",
+                "6": "Hochdruckarmaturen",
+                "7": "Magnetventile"
+            },
+            "automation": {
+                "0": "Sensoren",
+                "1": "Programmierbare Steuerungen",
+                "2": "Timer und Zähler",
+                "3": "Schalter und Controller",
+                "4": "Servo- und Schrittmotoren",
+                "5": "AC / DC-Antriebe und Motoren",
+                "6": "Positioniersysteme",
+                "7": "Bewegungssensoren und Controller",
+                "8": "Lineare und Winkelbewegungsprodukte",
+                "9": "Stromkreisschutzgeräte",
+                "10": "Sicherheitsrelais"
+            }
+        }
     },
     "Brandslider": {
         "title": "Unsere Marken"
@@ -50,5 +85,9 @@
         "title": "Produktliste",
         "tableColumnProduct": "Produkt",
         "tableColumnSupplier": "Lieferant"
+    },
+    "Partner": {
+        "title": "Offizieller Partner",
+        "text": "Offizieller Vertriebspartner in der Türkei für die Firma HESCH INDUSTRIETECHNIK GMBH."
     }
 }
