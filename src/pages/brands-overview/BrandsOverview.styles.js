@@ -7,6 +7,14 @@ export const Wrapper = styled.div`
 export const Letter = styled.p`
     font-size: 20px;
     padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff;
+    transition: .4s;
+
+    &:hover {
+        background-color: #f4f4f4;
+    } 
 `;
 
 export const Title = styled.h1`
@@ -14,7 +22,9 @@ export const Title = styled.h1`
 `;
 
 export const BrandsWrapper = styled.div`
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 40px 0;
 `;
