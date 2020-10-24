@@ -27,4 +27,12 @@ export const BrandsWrapper = styled.div`
     column-gap: 10px;
     row-gap: 10px;
     margin: 40px 0;
+
+    @media (max-width: 1020px) {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    @media (max-width: 720px) {
+        grid-template-columns: 50% 50%;
+    }
 `;
