@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
@@ -28,7 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename="/">
           {this.state.isMobile ? (
             <React.Fragment>
               <MobileToolbar />
@@ -44,7 +44,7 @@ class App extends React.Component {
             <Route exact path='/ueber-uns' component={About} />
             <Route exact path='/markenuebersicht' component={BrandsOverview} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
         <Footer />
       </React.Fragment>
     );
