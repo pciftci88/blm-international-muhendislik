@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import {
@@ -24,6 +25,7 @@ function Footer() {
                     <Paragraph>{t('About.1')}</Paragraph>
                     <Paragraph>{t('About.2')}</Paragraph>
                     <Paragraph>{t('About.3')}</Paragraph>
+                    <Paragraph>{t('About.4')}</Paragraph>
                 </FooterItem>
                 <FooterItem>
                     <Title>{t('Imprint.address')}</Title>
@@ -39,13 +41,15 @@ function Footer() {
                     </Paragraph>
                 </FooterItem>
                 <FooterItem>
-                    <LinkWrapper>
-                        <FooterLink to='/'>{t('Nav.home')}</FooterLink>
-                        <FooterLink to='/produkte'>{t('Nav.products')}</FooterLink>
-                        <FooterLink to='/markenuebersicht'>{t('Nav.brands')}</FooterLink>
-                        <FooterLink to='/impressum'>{t('Nav.imprint')}</FooterLink>
-                        <FooterLink to='/ueber-uns'>{t('Nav.about')}</FooterLink>
-                    </LinkWrapper>
+                    <HashRouter basename="/">
+                        <LinkWrapper>
+                            <FooterLink to='/'>{t('Nav.home')}</FooterLink>
+                            <FooterLink to='/produkte'>{t('Nav.products')}</FooterLink>
+                            <FooterLink to='/markenuebersicht'>{t('Nav.brands')}</FooterLink>
+                            <FooterLink to='/impressum'>{t('Nav.imprint')}</FooterLink>
+                            <FooterLink to='/ueber-uns'>{t('Nav.about')}</FooterLink>
+                        </LinkWrapper>
+                    </HashRouter>
                 </FooterItem>
             </Wrapper>
             <Copyright>&#169; {copyrightYear} BLM International Mühendislik - Benjamin Çiftçi.  {t('Copyright.1')}</Copyright>

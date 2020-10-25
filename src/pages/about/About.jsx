@@ -18,6 +18,7 @@ function About() {
                 <Paragraph>{t('About.1')}</Paragraph>
                 <Paragraph>{t('About.2')}</Paragraph>
                 <Paragraph>{t('About.3')}</Paragraph>
+                <Paragraph>{t('About.4')}</Paragraph>
             </Wrapper>
         </React.Fragment>
     );

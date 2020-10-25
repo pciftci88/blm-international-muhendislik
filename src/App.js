@@ -11,6 +11,8 @@ import BrandsOverview from './pages/brands-overview/BrandsOverview';
 import MobileToolbar from './components/mobile-toolbar/MobileToolbar';
 import ContactBlock from './components/contact-block/ContactBlock';
 
+import ScrollToTop from './global/js/scrollToTop';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -25,6 +27,13 @@ class App extends React.Component {
     });
   }
 
+  componentDidUpdate(prevProps) {
+    console.log(prevProps)
+    if (this.props.location !== prevProps.location) {
+      window.scrollTo(0, 0)
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -37,13 +46,15 @@ class App extends React.Component {
           ) : (
               <Header />
             )}
-          <Switch>
-            <Route exact path='/' component={Homepage} />
-            <Route exact path='/produkte' component={ProductOverview} />
-            <Route exact path='/impressum' component={Impressum} />
-            <Route exact path='/ueber-uns' component={About} />
-            <Route exact path='/markenuebersicht' component={BrandsOverview} />
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route exact path='/' component={Homepage} />
+              <Route exact path='/produkte' component={ProductOverview} />
+              <Route exact path='/impressum' component={Impressum} />
+              <Route exact path='/ueber-uns' component={About} />
+              <Route exact path='/markenuebersicht' component={BrandsOverview} />
+            </Switch>
+          </ScrollToTop>
         </HashRouter>
         <Footer />
       </React.Fragment>
