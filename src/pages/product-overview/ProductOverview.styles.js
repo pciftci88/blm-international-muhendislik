@@ -5,34 +5,40 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 20px;
 `;
 
 export const ProductTitle = styled.h2`
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
 `;
 
 export const ProductWrapper = styled.div`
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
 
     @media (max-width: 1020px) {
-        flex-direction: column;
-        &:not(:last-child) {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 20px;
-        }
+        
     }
 `;
 
 export const ProductBlock = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-right: 40px;
 
     @media (max-width: 1020px) {
@@ -51,10 +57,14 @@ export const ProductImagesWrapper = styled.div`
 export const BrandsBlock = styled.div`
     display: flex;
     flex-direction: column;
+    width: 100%;
 `;
 
 export const LogoWrapper = styled.div`
     display: flex;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
 
     @media (max-width: 1020px) {
         flex-wrap: wrap;
@@ -71,4 +81,8 @@ export const ProductListWrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+`;
+
+export const PumpImage = styled.img`
+    max-width: 260px;
 `;

@@ -18,7 +18,8 @@ import {
     ProductListWrapper,
     BrandsBlock,
     LogoWrapper,
-    Logo
+    Logo,
+    PumpImage
 } from './ProductOverview.styles';
 
 import hydraulik from '../../images/products/hydraulik.jpg';
@@ -52,7 +53,6 @@ function ProductOverview() {
         <React.Fragment>
             <Teaser teaser={teaser} headline={t('Teaser.products')} isBackgroundWhite={true} />
             <Wrapper>
-                <Title>{t('Products.title')}</Title>
                 <ProductWrapper>
                     <ProductBlock>
                         <ProductTitle>{t('Products.hydraulics')}</ProductTitle>
@@ -106,7 +106,7 @@ function ProductOverview() {
                         <ProductTitle>{t('Products.motorspumps')}</ProductTitle>
                         <ProductImagesWrapper>
                             <img src={motoren} alt={t('Products.motors')} title={t('Products.motors')} />
-                            <img src={pumpen} alt={t('Products.pumps')} title={t('Products.pumps')} />
+                            <PumpImage src={pumpen} alt={t('Products.pumps')} title={t('Products.pumps')} />
                         </ProductImagesWrapper>
                     </ProductBlock>
                     <BrandsBlock>
