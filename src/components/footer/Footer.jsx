@@ -36,7 +36,7 @@ function Footer() {
                     </Paragraph>
                     <Paragraph>
                         <strong>Tel.:</strong> <ContactLink href='tel:+903222563040'>+903222563040</ContactLink><br />
-                        <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/905438645502' rel='noreferrer noopener' target='_blank'>+905438645502</ContactLink><br />
+                        <strong>WhatsApp:</strong> <ContactLink href='https://wa.me/905372073627' rel='noreferrer noopener' target='_blank'>+905372073627</ContactLink><br />
                         <strong>Skype:</strong> <ContactLink href='skype:info@blm-international.com?chat' rel='noreferrer noopener' target='_blank'>info@blm-international.com</ContactLink>
                     </Paragraph>
                 </FooterItem>
