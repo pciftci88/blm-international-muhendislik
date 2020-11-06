@@ -84,8 +84,7 @@
     },
     "ProductList": {
         "title": "Produktliste",
-        "tableColumnProduct": "Produkt",
-        "tableColumnSupplier": "Lieferant"
+        "tableColumnProductSupplier": "Lieferant / Produkt"
     },
     "Partner": {
         "title": "Offizieller Partner",
