@@ -24,7 +24,7 @@ export const Title = styled.h1`
 export const BrandsWrapper = styled.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    column-gap: 10px;
+    column-gap: 7px;
     row-gap: 10px;
     margin: 40px 0;
 

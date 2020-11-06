@@ -83,8 +83,7 @@
     },
     "ProductList": {
         "title": "Ürün listesi",
-        "tableColumnProduct": "Ürün",
-        "tableColumnSupplier": "Tedarikçi"
+        "tableColumnProductSupplier": "Tedarikçi / Ürün"
     },
     "Partner": {
         "title": "Yetkili distribütörü",

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
     margin: 0 40px;
@@ -81,6 +81,38 @@ export const ProductListWrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+`;
+
+export const Table = styled.div`
+    display: table;
+`;
+
+const row = css`
+    display: table-row;
+`;
+
+const cell = css`
+    display: table-cell;
+`;
+
+export const TableRow = styled.div`
+    ${row};
+`;
+
+export const TableRowHeader = styled.div`
+    ${row};
+    background-color: #ddd;
+`;
+
+export const TableCell = styled.div`
+    ${cell};
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+`;
+
+export const TableCellHeader = styled.div`
+    ${cell};
+    padding: 20px 10px;
 `;
 
 export const PumpImage = styled.img`

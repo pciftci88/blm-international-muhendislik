@@ -10,7 +10,6 @@ import "@ui5/webcomponents/dist/TableCell.js";
 
 import {
     Wrapper,
-    Title,
     ProductWrapper,
     ProductBlock,
     ProductTitle,
@@ -19,7 +18,12 @@ import {
     BrandsBlock,
     LogoWrapper,
     Logo,
-    PumpImage
+    PumpImage,
+    Table,
+    TableRow,
+    TableRowHeader,
+    TableCell,
+    TableCellHeader
 } from './ProductOverview.styles';
 
 import hydraulik from '../../images/products/hydraulik.jpg';
@@ -120,26 +124,22 @@ function ProductOverview() {
                 </ProductWrapper>
                 <ProductListWrapper>
                     <ProductTitle>{t('ProductList.title')}</ProductTitle>
-                    <ui5-table>
-                        <ui5-table-column slot="columns">
-                            <span>{t('ProductList.tableColumnSupplier')}</span>
-                        </ui5-table-column>
-                        <ui5-table-column slot="columns">
-                            <span>{t('ProductList.tableColumnProduct')}</span>
-                        </ui5-table-column>
+                    <Table>
+                        <TableRowHeader>
+                            <TableCellHeader>
+                                <span>{t('ProductList.tableColumnProductSupplier')}</span>
+                            </TableCellHeader>
+                        </TableRowHeader>
                         {
                             productList.map((listItem) => {
-                                return listItem.products.map((item) => {
-                                    return (
-                                        <ui5-table-row key={uuidv4()}>
-                                            <ui5-table-cell>{listItem.supplier}</ui5-table-cell>
-                                            <ui5-table-cell>{item}</ui5-table-cell>
-                                        </ui5-table-row>
-                                    )
-                                })
+                                return (
+                                    <TableRow key={uuidv4()}>
+                                        <TableCell>{listItem}</TableCell>
+                                    </TableRow>
+                                )
                             })
                         }
-                    </ui5-table>
+                    </Table>
                 </ProductListWrapper>
             </Wrapper>
         </React.Fragment >
