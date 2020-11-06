@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 p {
