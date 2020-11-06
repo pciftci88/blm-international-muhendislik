@@ -80,7 +80,7 @@ export const Logo = styled.img`
 export const ProductListWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin: 20px;
 `;
 
 export const Table = styled.div`
@@ -93,6 +93,7 @@ const row = css`
 
 const cell = css`
     display: table-cell;
+     word-break: break-word;
 `;
 
 export const TableRow = styled.div`

@@ -122,26 +122,26 @@ function ProductOverview() {
                         </LogoWrapper>
                     </BrandsBlock>
                 </ProductWrapper>
-                <ProductListWrapper>
-                    <ProductTitle>{t('ProductList.title')}</ProductTitle>
-                    <Table>
-                        <TableRowHeader>
-                            <TableCellHeader>
-                                <span>{t('ProductList.tableColumnProductSupplier')}</span>
-                            </TableCellHeader>
-                        </TableRowHeader>
-                        {
-                            productList.map((listItem) => {
-                                return (
-                                    <TableRow key={uuidv4()}>
-                                        <TableCell>{listItem}</TableCell>
-                                    </TableRow>
-                                )
-                            })
-                        }
-                    </Table>
-                </ProductListWrapper>
             </Wrapper>
+            <ProductListWrapper>
+                <ProductTitle>{t('ProductList.title')}</ProductTitle>
+                <Table>
+                    <TableRowHeader>
+                        <TableCellHeader>
+                            <span>{t('ProductList.tableColumnProductSupplier')}</span>
+                        </TableCellHeader>
+                    </TableRowHeader>
+                    {
+                        productList.map((listItem) => {
+                            return (
+                                <TableRow key={uuidv4()}>
+                                    <TableCell>{listItem}</TableCell>
+                                </TableRow>
+                            )
+                        })
+                    }
+                </Table>
+            </ProductListWrapper>
         </React.Fragment >
     );
 }
