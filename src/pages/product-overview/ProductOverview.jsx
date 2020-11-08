@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { useTranslation } from 'react-i18next';
-import { v4 as uuidv4 } from 'uuid';
+
 
 import "@ui5/webcomponents/dist/Assets.js";
 import "@ui5/webcomponents/dist/Table.js";
@@ -14,16 +14,10 @@ import {
     ProductBlock,
     ProductTitle,
     ProductImagesWrapper,
-    ProductListWrapper,
     BrandsBlock,
     LogoWrapper,
     Logo,
     PumpImage,
-    Table,
-    TableRow,
-    TableRowHeader,
-    TableCell,
-    TableCellHeader
 } from './ProductOverview.styles';
 
 import hydraulik from '../../images/products/hydraulik.jpg';
@@ -43,12 +37,10 @@ import festoLogo from '../../images/logos/festo-logo.jpg';
 import skfLogo from '../../images/logos/skf-logo.jpg';
 import steimelLogo from '../../images/logos/steimel-logo.jpg';
 import witteLogo from '../../images/logos/witte-logo.jpg';
-
-import Teaser from '../../components/teaser/Teaser';
-
 import teaser from '../../images/teaser/production.jpg';
 
-import productList from '../../data/productList';
+const Teaser = lazy(() => import('../../components/teaser/Teaser'));
+const ProductList = lazy(() => import('../../components/product-list/ProductList'));
 
 function ProductOverview() {
     const { t } = useTranslation();
@@ -123,25 +115,7 @@ function ProductOverview() {
                     </BrandsBlock>
                 </ProductWrapper>
             </Wrapper>
-            <ProductListWrapper>
-                <ProductTitle>{t('ProductList.title')}</ProductTitle>
-                <Table>
-                    <TableRowHeader>
-                        <TableCellHeader>
-                            <span>{t('ProductList.tableColumnProductSupplier')}</span>
-                        </TableCellHeader>
-                    </TableRowHeader>
-                    {
-                        productList.map((listItem) => {
-                            return (
-                                <TableRow key={uuidv4()}>
-                                    <TableCell>{listItem}</TableCell>
-                                </TableRow>
-                            )
-                        })
-                    }
-                </Table>
-            </ProductListWrapper>
+            <ProductList />
         </React.Fragment >
     );
 }

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { Wrapper, Title, Paragraph } from './About.styles';
 
-import Teaser from '../../components/teaser/Teaser';
-
 import teaser from '../../images/teaser/about.jpg';
+
+const Teaser = lazy(() => import('../../components/teaser/Teaser'));
 
 function About() {
     const { t } = useTranslation();

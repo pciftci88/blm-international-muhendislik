@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import {
@@ -8,11 +8,10 @@ import {
     NamesParagraph
 } from './Impressum.styles';
 
-import Teaser from '../../components/teaser/Teaser';
-
 import teaser from '../../images/teaser/impressum.jpg';
-
 import linkedInLogo from '../../images/logos/linkedin-logo.jpg';
+
+const Teaser = lazy(() => import('../../components/teaser/Teaser'));
 
 function Impressum() {
     const { t } = useTranslation();

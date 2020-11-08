@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { lazy } from 'react';
 
-import MainSlider from '../../components/main-slider/MainSlider';
-import BrandSlider from '../../components/brand-slider/BrandSlider';
-import TextBlock from '../../components/textblock/TextBlock';
-import OfficialPartner from '../../components/official-partner/OfficialPartner';
+const MainSlider = lazy(() => import('../../components/main-slider/MainSlider'));
+const BrandSlider = lazy(() => import('../../components/brand-slider/BrandSlider'));
+const TextBlock = lazy(() => import('../../components/textblock/TextBlock'));
+const OfficialPartner = lazy(() => import('../../components/official-partner/OfficialPartner'));
 
 class Homepage extends React.Component {
     render() {

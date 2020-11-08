@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy } from 'react';
 
 import {
     Wrapper,
@@ -10,9 +10,9 @@ import "@ui5/webcomponents/dist/Label";
 import "@ui5/webcomponents/dist/Input";
 import "@ui5/webcomponents/dist/TextArea";
 
-import Teaser from '../../components/teaser/Teaser';
+const Teaser = lazy(() => import('../../components/teaser/Teaser'));
 
-import teaser from '../../images/teaser/contact.jpg';
+const teaser = lazy(() => import('../../images/teaser/contact.jpg'));
 
 class Contact extends React.Component {
     render() {

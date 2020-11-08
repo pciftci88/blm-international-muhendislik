@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Switch, Route, HashRouter } from 'react-router-dom';
 
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Homepage from './pages/homepage/Homepage';
-import ProductOverview from './pages/product-overview/ProductOverview';
-import Impressum from './pages/impressum/Impressum';
-import About from './pages/about/About';
-import BrandsOverview from './pages/brands-overview/BrandsOverview';
-import MobileToolbar from './components/mobile-toolbar/MobileToolbar';
-import ContactBlock from './components/contact-block/ContactBlock';
+const Header = lazy(() => import('./components/header/Header'));
+const Footer = lazy(() => import('./components/footer/Footer'));
+const Homepage = lazy(() => import('./pages/homepage/Homepage'));
+const ProductOverview = lazy(() => import('./pages/product-overview/ProductOverview'));
+const Impressum = lazy(() => import('./pages/impressum/Impressum'));
+const About = lazy(() => import('./pages/about/About'));
+const BrandsOverview = lazy(() => import('./pages/brands-overview/BrandsOverview'));
+const MobileToolbar = lazy(() => import('./components/mobile-toolbar/MobileToolbar'));
+const ContactBlock = lazy(() => import('./components/contact-block/ContactBlock'));
 
-import ScrollToTop from './global/js/scrollToTop';
+const ScrollToTop = lazy(() => import('./global/js/scrollToTop'));
 
 class App extends React.Component {
   constructor(props) {
@@ -28,15 +28,14 @@ class App extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log(prevProps)
     if (this.props.location !== prevProps.location) {
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
     }
   }
 
   render() {
     return (
-      <React.Fragment>
+      <Suspense fallback={<div>Loading...</div>}>
         <HashRouter basename="/">
           {this.state.isMobile ? (
             <React.Fragment>
@@ -57,7 +56,7 @@ class App extends React.Component {
           </ScrollToTop>
         </HashRouter>
         <Footer />
-      </React.Fragment>
+      </Suspense>
     );
   }
 }
