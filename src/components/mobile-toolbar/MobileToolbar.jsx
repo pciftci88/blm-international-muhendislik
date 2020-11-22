@@ -25,10 +25,6 @@ import Translation from '../../components/translation/Translation';
 
 import { useTranslation } from 'react-i18next';
 
-import '@ui5/webcomponents-icons/dist/icons/call.js'
-import '@ui5/webcomponents-icons/dist/icons/email.js'
-import '@ui5/webcomponents/dist/Button';
-
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({

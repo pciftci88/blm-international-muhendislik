@@ -1,7 +1,13 @@
 import React, { lazy } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { Wrapper, Title, Paragraph } from './About.styles';
+import {
+    Wrapper,
+    Title,
+    Paragraph,
+    ContentTitle,
+    ContentSubTitle
+} from './About.styles';
 
 import teaser from '../../images/teaser/about.jpg';
 
@@ -15,10 +21,11 @@ function About() {
             <Teaser teaser={teaser} headline={t('Teaser.about')} isBackgroundWhite={true} />
             <Wrapper>
                 <Title>{t('Nav.about')}</Title>
+                <ContentTitle>{t('About.title')}</ContentTitle>
+                <ContentSubTitle>{t('About.subtitle')}</ContentSubTitle>
                 <Paragraph>{t('About.1')}</Paragraph>
                 <Paragraph>{t('About.2')}</Paragraph>
                 <Paragraph>{t('About.3')}</Paragraph>
-                <Paragraph>{t('About.4')}</Paragraph>
             </Wrapper>
         </React.Fragment>
     );

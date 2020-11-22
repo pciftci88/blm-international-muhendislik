@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Switch, Route, HashRouter } from 'react-router-dom';
+import LoadingSpinner from './components/loading-spinner/LoadingSpinner';
 
 const Header = lazy(() => import('./components/header/Header'));
 const Footer = lazy(() => import('./components/footer/Footer'));
@@ -35,7 +36,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<LoadingSpinner />}>
         <HashRouter basename="/">
           {this.state.isMobile ? (
             <React.Fragment>

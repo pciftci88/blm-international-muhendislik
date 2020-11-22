@@ -22,10 +22,10 @@ function Footer() {
             <Wrapper>
                 <FooterItem>
                     <Title>{t('Nav.about')}</Title>
-                    <Paragraph>{t('About.1')}</Paragraph>
-                    <Paragraph>{t('About.2')}</Paragraph>
-                    <Paragraph>{t('About.3')}</Paragraph>
-                    <Paragraph>{t('About.4')}</Paragraph>
+                    <Paragraph>{t('AboutFooter.1')}</Paragraph>
+                    <Paragraph>{t('AboutFooter.2')}</Paragraph>
+                    <Paragraph>{t('AboutFooter.3')}</Paragraph>
+                    <Paragraph>{t('AboutFooter.4')}</Paragraph>
                 </FooterItem>
                 <FooterItem>
                     <Title>{t('Imprint.address')}</Title>

@@ -7,6 +7,13 @@
         "about": "About us"
     },
     "About": {
+        "title": "The company BLM International Mühendislik",
+        "subtitle": "Quality, safety and good value for money.",
+        "1": "Availability of products and spare parts in the industry of relevant manufacturers as well as extensive knowledge that we make available to you in connection with your tasks in the industrial environment.",
+        "2": "Our activity includes the manufacturer-independent advice and delivery of industrial plant technology, as well as a variety of spare parts for this area. Our wealth of experience extends to the development of industrial solutions.",
+        "3": "From our many years of experience and expertise, we know your needs and find the most technically optimal solution, so that you can increase your efficiency and reduce costs."
+    },
+    "AboutFooter": {
         "1": "BLM International Mühendislik is specialized in the supply of spare parts and machines.",
         "2": "Our products are for the industrial sector all over the world.",
         "3": "We can provide you with spare parts or new products, depending on your needs.",
