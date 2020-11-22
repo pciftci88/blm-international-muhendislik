@@ -23,15 +23,22 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({
-      isMobile: window.innerWidth <= 1020
-    });
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
   }
 
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {
       window.scrollTo(0, 0);
     }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.resize.bind(this));
+  }
+
+  resize() {
+    this.setState({ isMobile: window.innerWidth <= 1020 });
   }
 
   render() {
