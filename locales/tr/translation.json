@@ -7,6 +7,13 @@
         "about": "Hakkımızda"
     },
     "About": {
+        "title": "BLM International Mühendislik şirketi",
+        "subtitle": "Kalite, güvenlik ve paranızın tam karşılığı.",
+        "1": "İlgili üreticilerin endüstrisindeki ürünlerin ve yedek parçaların mevcudiyeti ve endüstriyel ortamdaki görevlerinizle bağlantılı olarak size sunduğumuz kapsamlı bilgi.",
+        "2": "Faaliyetimiz, üreticiden bağımsız tavsiye ve endüstriyel tesis teknolojisinin teslimatını ve bu alan için çeşitli yedek parçaları içermektedir. Zengin deneyimimiz endüstriyel çözümlerin geliştirilmesine kadar uzanmaktadır.",
+        "3": "Uzun yıllara dayanan deneyimimiz ve uzmanlığımız sayesinde ihtiyaçlarınızı biliyoruz ve teknik olarak en uygun çözümü buluyoruz, böylece verimliliğinizi artırabilir ve maliyetleri düşürebilirsiniz."
+    },
+    "AboutFooter": {
         "1": "BLM International Mühendislik yedek parça ve makine tedariğinde uzmanlaşmıştır.",
         "2": "Ürünlerimiz tüm dünyada sanayi sektörü içindir.",
         "3": "İhtiyaçlarınıza bağlı olarak size yedek parça veya yeni ürünler sağlayabiliriz.",

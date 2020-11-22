@@ -7,6 +7,13 @@
         "about": "Über uns"
     },
     "About": {
+        "title": "Die Firma BLM International Mühendislik",
+        "subtitle": "Qualität, Sicherheit und ein gutes Preis-Leistungs-Verhältnis.",
+        "1": "Verfügbarkeit von Produkten und Ersatzteilen in der Branche relevanter Hersteller sowie für umfangreiches Wissen, das wir Ihnen in Zusammenhang mit Ihren Aufgabenstellungen im industriellen Umfeld zur Verfügung stellen.",
+        "2": "Unsere Tätigkeit umfasst das Hersteller unabhängige Beraten und Liefern industrieller Anlagentechnik, sowie eine Vielfalt an Ersatzteilen für diesen Bereich. Dabei reicht unser Erfahrungsschatz bis in die Entwicklungen von industriellen Lösungen.",
+        "3": "Aus unserer langjährigen Erfahrung und Expertise heraus kennen wir Ihren Bedarf und finden die technisch optimalste Lösung, so dass Sie Ihre Effizienz steigern und Kosten senken können."
+    },
+    "AboutFooter": {
         "1": "BLM International Mühendislik spezialisiert sich auf die Lieferung von Ersatzteilen und Maschinen.",
         "2": "Unsere Produkte sind für den Industriebereich in aller Welt.",
         "3": "Bei uns erhalten Sie Ersatzteile oder Neuprodukte, je nach Bedarf.",
