@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
 const spin = keyframes`
-    100 % {
+    100% {
         transform: rotatez(360deg);
     }
 `;
@@ -16,23 +16,23 @@ export const Container = styled.div`
 `;
 
 export const Loader = styled.div`
-    width:100px;
-    height:100px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:10px 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
 
     &::before {
         content: "";
-        color: white;
+        color: #fff;
         height: 70px;
         width: 70px;
         background: transparent;
         border-radius: 50%;
         border: 10px solid blue;
         border-color: #0277BD #0277BD #0277BD #81D4FA;
-        animation: ${spin} .6s infinite ease -in -out;
-        box-shadow: 0px 0px 40px - 2px skyblue;
+        animation: ${spin} .6s infinite ease-in-out;
+        box-shadow: 0px 0px 40px -2px skyblue;
     }
 `;
